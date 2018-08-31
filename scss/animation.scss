@@ -1,0 +1,30 @@
+@keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+}
+
+@keyframes jump-in {
+    from {
+      bottom: -4rem;
+      opacity: 0;
+    }
+    to {
+      bottom: 0rem;
+      opacity: 1;
+    }
+}
+
+@keyframes apple-bg {
+    from {
+      bottom: -16rem;
+      opacity: 0;
+    }
+    to {
+      bottom: -8rem;
+      opacity: .2;
+    }
+}

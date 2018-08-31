@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>STICs</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="./css/main.css">
+  <link rel="shortcut icon" href="./assets/favicon.ico" />
+</head>
+
+<body>
+  <article class="catalog">
+    <article class="top">
+      <article class="nav">
+        <div class="container">
+          <ul>
+            <li>
+              <a class="logo-link" href="./index.html">
+                <img class="logo" src="./img/logo.svg" alt="STICs">
+              </a>
+            </li>
+            <!-- <li>
+              <a class="active" href="./index.html">about</a>
+            </li> -->
+            <span class="d-none d-sm-block">
+              <li>
+                <a class="active" href="./catalog.html">catalog</a>
+              </li>
+              <li>
+                <a href="./faq.html">faq</a>
+              </li>
+              <li>
+                <a id="contact-link" href="#contact">contact</a>
+              </li>
+              <li>
+                <a class="red" href="./apply.html">apply now &rarr;</a>
+              </li>
+            </span>
+            <div id="hamburger" class="hamburger d-sm-none">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div id="hamburger-menu" class="hamburger-menu">
+              <a href="./catalog.html">catalog</a>
+              <a href="./faq.html">faq</a>
+              <a id="mobile-contact-link" href="#contact">contact</a>
+              <br>
+              <a class="red" href="./apply.html">apply now &rarr;</a>
+            </div>
+          </ul>
+      </article>
+
+      <article class="subpage-hero">
+        <div class="container">
+          <h1>Catalog</h1>
+        </div>
+      </article>
+
+      <article id="catalogSettings" class="catalog-settings">
+        <div class="container">
+          <div class="header">
+            <input id="catalog-search" class="search-input" type="text" name="search" value="" placeholder="Filter by course code (e.g. artt)">
+            <div class="options">
+              <div class="tag-options">
+                <a id="view-all" class="button tag-option-selected tag-option">view all</a>
+                <span id="filter-tags"></span>
+              </div>
+              <div class="dropdown">
+                <a id="selectedSemester" class="dropbtn button button-red caret"></a>
+                <div id="semesters" class="dropdown-content"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </article>
+    <!-- <div id="displayedCourses"></div> -->
+
+    <article id="classes" class="bottom classes">
+      <div id="displayedCourses" class="container">
+        <div class="loader">Loading...</div>
+      </div>
+    </article>
+
+    <article id="contact" class="contact">
+      <div class="container text-center">
+        <h2>contact us.</h2>
+        <!-- <span class="divider"></span> -->
+
+        <!-- <span class="divider white"></span> -->
+        <p>
+          Reach out to us at <strong><a class="email" href="#">sticsumd@gmail.com</a></strong>
+        </p>
+        <a target="_blank" href="https://www.facebook.com/umdstics/?ref=br_rs">
+          <img src="./img/fb.svg" alt="">
+        </a>
+        <a target="_blank" href="https://www.linkedin.com/company/student-initiated-courses/">
+          <img src="./img/in.svg" alt="">
+        </a>
+      </div>
+    </article>
+      <article class="footer">
+        <p>© Copyright 2018 STICs UMD</p>
+      </article>
+  </article>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript " src="./js/catalog.js "></script>
+  <script type="text/javascript " src="./js/main.js "></script>
+</body>
+
+
+</html>

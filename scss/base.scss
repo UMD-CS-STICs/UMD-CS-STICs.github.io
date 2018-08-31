@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700,900');
+
+html {
+  overflow-x: hidden;
+  // Extra small devices (portrait phones, less than 576px)
+  @media (max-width: 575.98px) {
+    font-size: 55%;
+  }
+  // Small devices (landscape phones, 576px and up)
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    font-size: 58%;
+  }
+  // Medium devices (tablets, 768px and up)
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    font-size: 60%;
+  }
+  // Large devices (desktops, 992px and up)
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    font-size: 62.5%;
+  }
+  // Extra large devices (large desktops, 1200px and up)
+  @media (min-width: 1200px) {
+    font-size: 62.5%;
+
+  }
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  font-weight: $font-normal;
+  overflow-x: hidden !important;
+  font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: $font-bold;
+  font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 5.4rem;
+  font-weight: $font-black;
+}
+
+h2 {
+  font-size: 4rem;
+  font-weight: $font-black;
+}
+
+a {
+  color: $red;
+  font-weight: $font-bold;
+  &:hover {
+    color: $red;
+    // text-decoration: none;
+    // filter: brightness(120%);
+  }
+}
+
+article.section {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background-color: white;
+}
+
+strong {
+  font-weight: $font-bold;
+}
