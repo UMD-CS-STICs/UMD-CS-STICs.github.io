@@ -962,6 +962,26 @@ var CLASSES = {
           day: "Monday",
           time: "3:30 PM - 4:45 PM"
         },
+        {
+          id: 38,
+          department: "CMSC",
+          number: "389R",
+          title: "Introduction to Ethical Hacking",
+          facilitators: [
+            { name: "Michael Reininger", email: "michael@csec.umiacs.umd.edu" },
+            { name: "Wesley Weidenhamer", email: "wesley@csec.umiacs.umd.edu" },
+            { name: "Joshua Fleming", email: "wesley@csec.umiacs.umd.edu" },
+          ],
+          advisor: "Dave Levin",
+          credits: 1,
+          description:
+            "This practical, hands-on 1-credit course provides students with an introduction to ethical hacking. The course begins with a discussion on the ethics behind security research and progresses to topics that surround penetration testing, forensics, cryptology, and binary reverse engineering and exploitation. This course is also meant to introduce students to Capture-the-Flag (CTF) style cybersecurity challenges, encourages participation in UMD’s Cybersecurity Club (UMDCSEC), and prepares for CMSC414.",
+          syllabus:
+            "./assets/syllabi/CMSC389R_F18.pdf",
+          room: "deprecated",
+          day: "deprecated",
+          time: "deprecated"
+        },
       ]
     },
   }
