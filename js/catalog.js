@@ -963,7 +963,7 @@ var CLASSES = {
           time: "3:30 PM - 4:45 PM"
         },
         {
-          id: 38,
+          id: 39,
           department: "CMSC",
           number: "389R",
           title: "Introduction to Ethical Hacking",
@@ -981,6 +981,25 @@ var CLASSES = {
           room: "deprecated",
           day: "deprecated",
           time: "deprecated"
+        },
+        {
+          id: 40,
+          department: "AASP",
+          number: "299T",
+          title: "Introduction to Twi",
+          facilitators: [
+            { name: "Clydelle Agyei", email: "agyeiclydelle@gmail.com" },
+            { name: "Ama Sapong", email: "asapong@terpmail.umd.edu​ " },
+          ],
+          advisor: "George Kintiba",
+          credits: 1,
+          description:
+            "Akwaaba (Welcome)! This is a language course designed to provide basic communicative competence in oral Twi for beginners. We will begin by introducing students to the Ghanaian culture. As we advance through the course, you will notice that we place less emphasis on formal grammatical instruction and more emphasis on everyday speech. This is because we want to prepare you for everyday conversation with family and friends. Through weekly lessons and activities, we hope to build your confidence when speaking Twi and also help you build a community with other students on campus.",
+          syllabus:
+            "./assets/syllabi/AASP299T_F18.pdf",
+          room: "deprecated",
+          day: "deprecated",
+          time: "deprecated" // TODO deprecate these fields completely
         },
       ]
     },
