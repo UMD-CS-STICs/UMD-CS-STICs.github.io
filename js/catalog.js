@@ -1007,7 +1007,7 @@ var CLASSES = {
           number: "389Y",
           title: "Practical Methods For Self Driving Cars",
           facilitators: [
-            { name: "Michael Stevens", email: "TODO@gmail.com" },
+            { name: "Michael Stevens", email: "msteven9@terpmail.umd.edu" },
           ],
           advisor: "Larry Davis",
           credits: 1,
