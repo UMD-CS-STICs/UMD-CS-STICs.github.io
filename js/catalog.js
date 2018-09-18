@@ -1001,6 +1001,24 @@ var CLASSES = {
           day: "deprecated",
           time: "deprecated" // TODO deprecate these fields completely
         },
+        {
+          id: 40,
+          department: "CMSC",
+          number: "389Y",
+          title: "Practical Methods For Self Driving Cars",
+          facilitators: [
+            { name: "Michael Stevens", email: "TODO@gmail.com" },
+          ],
+          advisor: "Larry Davis",
+          credits: 1,
+          description:
+            "This course aims to provide students with a practical understanding of popular algorithms used in self driving cars. Both traditional and deep learning approaches will be used to solve scene understanding and control.",
+          syllabus:
+            "./assets/syllabi/CMSC389Y_F18.pdf",
+          room: "deprecated",
+          day: "deprecated",
+          time: "deprecated" // TODO deprecate these fields completely
+        },
       ]
     },
   }
