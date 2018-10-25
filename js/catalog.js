@@ -1019,6 +1019,21 @@ var CLASSES = {
           day: "deprecated",
           time: "deprecated" // TODO deprecate these fields completely
         },
+        {
+          id: 41,
+          department: "CMSC",
+          number: "389E",
+          title: "Digital Logic through Minecraft",
+          facilitators: [{ name: "Alex Brassel", email: "abrassel@umd.edu" }],
+          advisor: "Jason Filippou",
+          credits: 1,
+          description:
+            "This class explores the fundamentals of digital logic design using Minecraft's Redstone. Using the low-level and intuitive visualization of circuitry Redstone provides, you will create a series of projects that apply principles of digital logic design learned in class.",
+          syllabus: "./assets/syllabi/CMSC389E_F18.pdf",
+          room: "deprecated",
+          day: "deprecated",
+          time: "deprecated"
+        },
       ]
     },
   }
