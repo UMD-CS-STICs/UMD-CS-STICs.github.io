@@ -296,6 +296,32 @@ article.faq {
   }
 }
 
+article.team {
+  @extend article.section;
+  h2 {
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+  }
+  .intro {
+    h2 {
+      font-weight: bold;
+      font-size: 3rem;
+      margin-top: 0;
+      margin-bottom: 2rem;
+    }
+  }
+  .people-row {
+    // text-align: center;
+    img {
+      max-width: 100%;
+      border-radius: 8px;
+      margin-bottom: 2rem;
+      opacity: .2;
+    }
+  }
+
+}
+
 article.catalog {
   .class {
     opacity: 1;

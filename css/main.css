@@ -46,7 +46,7 @@ a {
   a:hover {
     color: #D95444; }
 
-article.section, article.home-intro, article.home-info, article.faq, article.contact {
+article.section, article.home-intro, article.home-info, article.faq, article.team, article.contact {
   padding-top: 8rem;
   padding-bottom: 8rem;
   background-color: white; }
@@ -279,6 +279,22 @@ article.home-info .image-row img {
 
 article.faq p, article.faq ul {
   margin-bottom: 4rem; }
+
+article.team h2 {
+  margin-top: 8rem;
+  margin-bottom: 2rem; }
+
+article.team .intro h2 {
+  font-weight: bold;
+  font-size: 3rem;
+  margin-top: 0;
+  margin-bottom: 2rem; }
+
+article.team .people-row img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  opacity: .2; }
 
 article.catalog .class {
   opacity: 1;
