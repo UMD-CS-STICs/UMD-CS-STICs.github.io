@@ -304,19 +304,63 @@ article.team {
   }
   .intro {
     h2 {
-      font-weight: bold;
+      font-weight: normal;
       font-size: 3rem;
       margin-top: 0;
       margin-bottom: 2rem;
     }
   }
+  .modal {
+    .modal-dialog {
+      margin-top: 8rem;
+      .modal-content {
+        border-radius: 8px;
+        .modal-header {
+          border: none;
+          padding: 4rem;
+          padding-bottom: 0;
+          button.close {
+            font-size: 2.2rem;
+          }
+        }
+        .modal-body {
+          padding: 2rem 4rem 4rem;
+          .name {
+            padding-bottom: 2rem;
+            margin-bottom: 2rem;
+            border-bottom: 1px solid #e3e3e3;
+          }
+        }
+      }
+    }
+  }
   .people-row {
-    // text-align: center;
-    img {
-      max-width: 100%;
-      border-radius: 8px;
-      margin-bottom: 2rem;
-      opacity: .2;
+    .person {
+      position: relative;
+      img {
+        max-width: 100%;
+        border-radius: 8px;
+        margin-bottom: 3rem;
+        transition: ease all .1s;
+      }
+      &.clickable {
+        &:hover {
+          cursor: pointer;
+          img {
+            transform: scale(1.05);
+          }
+        }
+        &:active {
+          img {
+            opacity: .7;
+          }
+        }
+      }
+      &.large {
+        img {
+          margin-bottom: 1.5rem;
+        }
+      }
     }
   }
 
