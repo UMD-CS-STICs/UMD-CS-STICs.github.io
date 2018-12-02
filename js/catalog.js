@@ -131,16 +131,25 @@ function update(semester) {
 
   if (classesToDisplay === "")
     classesToDisplay = "No classes were found.";
+
+  if (semester === CURRENT_SEMESTER)
+    classesToDisplay += '<div class="classes-footer"><h3>More classes coming soon.</h3></div>';
   $("#displayedCourses").html(classesToDisplay);
 }
 
 function getFacilitatorsText(fs) {
   var text = "";
   text += `Facilitator${fs.length == 1 ? "" : "s"}: `;
+
   for (idx in fs) {
-    text += `<a href="mailto:${fs[idx].email}">${fs[idx].name}</a>`;
+    if (fs[idx].email) {
+      text += `<a href="mailto:${fs[idx].email}">${fs[idx].name}</a>`;
+    } else {
+      text += fs[idx].name;
+    }
     if (idx != fs.length - 1) text += ", ";
   }
+
   return text;
 }
 
@@ -167,8 +176,8 @@ function createDiv(cl) {
             </div> \
             <p>${getFacilitatorsText(cl.facilitators)}</p> \
             <p>${getAdvisorText(cl.advisor)}</p> \
-            ${(cl.website == undefined) ? "" : `<a target="_blank" href="${cl.website}">Website</a><br>`} \
-            <a target="_blank" href="${cl.syllabus}">Syllabus</a> \
+            ${(cl.website === undefined || cl.website === null) ? "" : `<a target="_blank" href="${cl.website}">Website</a><br>`} \
+            ${(cl.syllabus === undefined || cl.syllabus === null) ? "" : `<a target="_blank" href="${cl.syllabus}">Syllabus</a>`} \
           </div> \
           <div class="col-8">
             ${cl.description} \
@@ -176,10 +185,12 @@ function createDiv(cl) {
     </div>`;
 }
 
-var SEMESTERS = ['spring 2017', 'fall 2017', 'spring 2018', 'fall 2018'];
+// TODO add semesters here
+var SEMESTERS = ['spring 2017', 'fall 2017', 'spring 2018', 'fall 2018', 'spring 2019'];
 
-var CURRENT_SEMESTER = "fall 2018";
+var CURRENT_SEMESTER = "spring 2019";
 
+// TODO add classes here
 var CLASSES = {
   classes: {
     'spring 2017': {
@@ -1036,5 +1047,196 @@ var CLASSES = {
         },
       ]
     },
+    'spring 2019': {
+      departments: ["CMSC"],
+      classes: [
+        {
+          id: 42,
+          department: "CMSC",
+          number: "388D",
+          title: "2D Game Engine Design",
+          facilitators: [
+            { name: "Sina Mirnejad", email: null },
+            { name: "Saadiq Shaik", email: null }
+          ],
+          advisor: "David Mount",
+          credits: 1,
+          description:
+            "This course will provide basic insight into the design process of a Java game engine, 2D graphics, and the mathematics behind it. The primary focus of the course will be on 2D game engines but will discuss ideas relevant to 3D environments.",
+          syllabus: null,
+          website: null,
+        },
+        {
+          id: 43,
+          department: "CMSC",
+          number: "388E",
+          title: "Creative Approaches to Computing",
+          facilitators: [
+            { name: "Amy Zhao", email: null },
+            { name: "Sana Shah", email: null },
+            { name: "Astha Singhal", email: null }
+          ],
+          advisor: "Roger Eastman",
+          credits: 1,
+          description:
+            "This class aims to bring the creativity back into computing by teaching basic art and design principles through the medium of coding. By bringing together Processing, a visual arts coding language, and different hallmarks of art theory, we want to teach an innovative class that empowers students to connect with their creative side. Students should come in wih basic coding knowledge but can expect to leave with agreater appreciation for digital media.",
+          syllabus: null,
+          website: null,
+        },
+        {
+          id: 44,
+          department: "CMSC",
+          number: "389C",
+          title: "Bitcoin and Other Cryptocurrencies",
+          facilitators: [
+            { name: "Cameron Payton", email: null },
+          ],
+          advisor: "Jonathan Katz",
+          credits: 1,
+          description:
+            "This course provides a comprehensive, practical introduction to the technology behind cryptocur rency and the economy surrounding it. This course will have a heavy emphasis on Bitcoin, but will dive into other types of cryptocurrency as well, such as Ethereum. This course is primarily intended to focus on the technological aspect of cryptocurrency, but we will also spend time discussing the economics of cryptocurrency.",
+          syllabus: null,
+          website: null,
+        },
+        {
+          id: 45,
+          department: "CMSC",
+          number: "389K",
+          title: "Full-stack Web Development with Node.js",
+          facilitators: [
+            { name: "Benny Cheng", email: null },
+            { name: "Chirag Shankar", email: null }
+          ],
+          advisor: "John Dickerson",
+          credits: 1,
+          description:
+            "This course provides a comprehens ive, practical introduction to modern full-stack web development using JavaScript and Node.js. The course will start with basic HTML/CSS/JavScr ipt. Then, we will move into Node.js and learn how to deploy a website from there. We will learn about Express.js (server-side development modu le) and MongoDB (database) in order to create a complete web application.",
+          syllabus: null,
+          website: null,
+        },
+        {
+          id: 46,
+          department: "CMSC",
+          number: "389O",
+          title: "The Coding Interview",
+          facilitators: [
+            { name: "Maria McCulley", email: null },
+            { name: "Nelson Le", email: null }
+          ],
+          advisor: "Thomas Goldstein",
+          credits: 1,
+          description:
+            'Students will be provided with a comprehensive, practical introduction to technical interviews. Starting with basic topics such as Big O and String Manipulation. We will then move into more complex topics such as Bit Manipulation and Dynamic Programming. Most of the classes will be "In-Class Interviews" and take-home assignments will simulate real interview settings.',
+          syllabus: null,
+          website: null,
+        },
+        {
+          id: 47,
+          department: "CMSC",
+          number: "388F",
+          title: "Functional Pearls",
+          facilitators: [
+            { name: "Cameron Moy", email: null },
+            { name: "Ben Mariano", email: null }
+          ],
+          advisor: "David Van Horn",
+          credits: 1,
+          description:
+            "This course will explore elegant examples of functional programming. The first half will provide an introduction to Haskell and four important abstractions: monoids, functors, applicative functors, and monads. We will focus on simple and plentiful examples. The second half will cover a wide variety of functional programming techniques and applications.",
+          syllabus: null,
+          website: null,
+        },
+        {
+          id: 48,
+          department: "IDEA",
+          number: "258D",
+          title: "Explorations in Design",
+          facilitators: [
+            { name: "Tianxin Chen", email: null },
+          ],
+          advisor: "Meenu Singh",
+          credits: 1,
+          description:
+            "Explorations in Design will give students the opportunity to apply their unique backgrounds to the realm of design. Students will engage in hands-on learning with real clients from various industries. We will explore how good and bad design plays a role in our everyday lives, from the way we order coffee to the logos you see to the signs that help you navigate (or get lost on) the metro.",
+          syllabus: null,
+          website: null,
+        },
+        {
+          id: 49,
+          department: "MATH",
+          number: "299C",
+          title: "Mathematics & Classical Music",
+          facilitators: [
+            { name: "Siri Neerchal", email: null },
+          ],
+          advisor: "Niranjan Ramachandran",
+          credits: 1,
+          description:
+            "The aim of this course is to explore the historical discoveries in mathematics that have influenced Western classical music, as well as musical expressions of specific mathematical concepts. This course is not meant to be a rigorous introduction to music theory or mathematics; rather, it is focused on introducing students to classical music through mathematical ideas that appear in it. Students will also have an opportunity to explore mathematics through music in the form of a creative project.",
+          syllabus: null,
+          website: null,
+        },
+        {
+          id: 49,
+          department: "MATH",
+          number: "299C",
+          title: "Mathematics & Classical Music",
+          facilitators: [
+            { name: "Siri Neerchal", email: null },
+          ],
+          advisor: "Niranjan Ramachandran",
+          credits: 1,
+          description:
+            "The aim of this course is to explore the historical discoveries in mathematics that have influenced Western classical music, as well as musical expressions of specific mathematical concepts. This course is not meant to be a rigorous introduction to music theory or mathematics; rather, it is focused on introducing students to classical music through mathematical ideas that appear in it. Students will also have an opportunity to explore mathematics through music in the form of a creative project.",
+          syllabus: null,
+          website: null,
+        },
+        // {
+        //   id: 50,
+        //   department: "AASP",
+        //   number: "299I",
+        //   title: "Elementary Igbo II",
+        //   facilitators: [
+        //     { name: "TBD", email: null },
+        //   ],
+        //   advisor: "Sangeetha Madhavan",
+        //   credits: 1,
+        //   description:
+        //     "...",
+        //   syllabus: null,
+        //   website: null,
+        // },
+        // {
+        //   id: 51,
+        //   department: "AASP",
+        //   number: "299T",
+        //   title: "Elementary Twi I",
+        //   facilitators: [
+        //     { name: "TBD", email: null },
+        //   ],
+        //   advisor: "George Kintiba",
+        //   credits: 1,
+        //   description:
+        //     "...",
+        //   syllabus: null,
+        //   website: null,
+        // },
+        // {
+        //   id: 52,
+        //   department: "AASP",
+        //   number: "299YT",
+        //   title: "Elemantary Yoruba II",
+        //   facilitators: [
+        //     { name: "TBD", email: null },
+        //   ],
+        //   advisor: "Jason Nichols",
+        //   credits: 1,
+        //   description:
+        //     "...",
+        //   syllabus: null,
+        //   website: null,
+        // },
+      ],
+    }
   }
 };

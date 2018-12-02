@@ -314,6 +314,10 @@ article.catalog article.bottom {
       font-weight: bold; }
     article.catalog article.bottom div.class:last-child {
       border-bottom: none; }
+  article.catalog article.bottom div.classes-footer {
+    margin-top: 6rem;
+    opacity: .5;
+    text-align: center; }
 
 article.catalog article.catalog-settings {
   padding-top: 2rem;
