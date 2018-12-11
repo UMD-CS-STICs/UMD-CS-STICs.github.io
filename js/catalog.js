@@ -1176,21 +1176,6 @@ var CLASSES = {
           syllabus: null,
           website: null,
         },
-        {
-          id: 49,
-          department: "MATH",
-          number: "299C",
-          title: "Mathematics & Classical Music",
-          facilitators: [
-            { name: "Siri Neerchal", email: null },
-          ],
-          advisor: "Niranjan Ramachandran",
-          credits: 1,
-          description:
-            "The aim of this course is to explore the historical discoveries in mathematics that have influenced Western classical music, as well as musical expressions of specific mathematical concepts. This course is not meant to be a rigorous introduction to music theory or mathematics; rather, it is focused on introducing students to classical music through mathematical ideas that appear in it. Students will also have an opportunity to explore mathematics through music in the form of a creative project.",
-          syllabus: null,
-          website: null,
-        },
         // {
         //   id: 50,
         //   department: "AASP",
