@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Raleway:400,700,900");
+@import url("https://fonts.googleapis.com/css?family=Raleway:900");
+@import url("https://fonts.googleapis.com/css?family=Lato:400,900");
 html {
   overflow-x: hidden; }
   @media (max-width: 575.98px) {
@@ -22,7 +23,7 @@ body {
   line-height: 1.5;
   font-weight: 300;
   overflow-x: hidden !important;
-  font-family: 'Raleway', sans-serif; }
+  font-family: 'Lato', sans-serif; }
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
@@ -44,7 +45,8 @@ a {
   color: #D95444;
   font-weight: bold; }
   a:hover {
-    color: #D95444; }
+    color: #D95444;
+    text-decoration: none; }
 
 article.section, article.home-intro, article.home-info, article.faq, article.contact {
   padding-top: 8rem;
