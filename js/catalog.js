@@ -1189,7 +1189,7 @@ var CLASSES = {
           credits: 2,
           description:
             "Exploring how to leverage 3D printing to improve performance and comfort of prosthetic devices.",
-          syllabus: "./assets/syllabi/S19/CMSC388E_S19.pdf",
+          syllabus: "./assets/syllabi/S19/ENME289P_S19.pdf",
           website: null,
         },
         {
