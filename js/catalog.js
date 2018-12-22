@@ -657,7 +657,7 @@ var CLASSES = {
           credits: 1,
           description:
             "This course presents a practical and project-oriented introduction to modern front end web development. Students will learn to design and build websites using technologies such as HTML, CSS, JS, Sass, Bootstrap, and Git.",
-          syllabus: "./assets/syllabi/ARTT489Q_F18.pdf",
+          syllabus: "./assets/syllabi/F18/ARTT489Q_F18.pdf",
           website: "http://stics.umd.edu/artt489q",
           room: "ASY3304",
           day: "Friday",
@@ -676,7 +676,7 @@ var CLASSES = {
           credits: 1,
           description:
             "This course provides a comprehensive, practical introduction to the technology behind cryptocurrency and the economy surrounding it. This course will have a heavy emphasis on Bitcoin, but will dive into other types of cryptocurrency as well, such as Ethereum. This course is primarily intended to focus on the technological aspect of cryptocurrency, but we will also spend time discussing the economics of cryptocurrency.",
-          syllabus: "./assets/syllabi/CMSC389C_F18.pdf",
+          syllabus: "./assets/syllabi/F18/CMSC389C_F18.pdf",
           room: "BPS1238",
           day: "Friday",
           time: "1 - 1:50 PM"
@@ -694,7 +694,7 @@ var CLASSES = {
           credits: 1,
           description:
             "This course provides a comprehensive, practical introduction to the intersection of machine learning and different challenges in healthcare. Students will apply basic predictive modeling techniques to fields such as early detection of disease, telemedicine, and mental health. Prior knowledge of biology is not required but a basic understanding of Python and/or machine learning techniques is recommended.",
-          syllabus: "./assets/syllabi/CMSC389I_F18.pdf",
+          syllabus: "./assets/syllabi/F18/CMSC389I_F18.pdf",
           room: "CSI2118",
           day: "Friday",
           time: "2 - 2:50 PM"
@@ -714,7 +714,7 @@ var CLASSES = {
           credits: 1,
           description:
             `Students will be provided with a comprehensive, practical introduction to technical interviews. Starting with basic topics such as Big O and String Manipulation. We will then move into more complex topics such as Bit Manipulation and Dynamic Programming. Most of the classes will be "In-Class Interviews" and take-home assignments will simulate real interview settings.`,
-          syllabus: "./assets/syllabi/CMSC389O_F18.pdf",
+          syllabus: "./assets/syllabi/F18/CMSC389O_F18.pdf",
           sections: [
             {
               room: "Section 0301: EGR2154",
@@ -745,7 +745,7 @@ var CLASSES = {
           credits: 1,
           description:
             "The aim of this course is to explore the historical discoveries in mathematics that have influenced Western classical music, as well as musical expressions of specific mathematical concepts. This course is not meant to be a rigorous introduction to music theory or mathematics; rather, it is focused on introducing students to classical music through mathematical ideas that appear in it. Students will also have an opportunity to explore mathematics through music in the form of a creative project.",
-          syllabus: "./assets/syllabi/MATH299C_F18.pdf",
+          syllabus: "./assets/syllabi/F18/MATH299C_F18.pdf",
           room: "MTH0103",
           day: "Friday",
           time: "12 - 12:50 PM"
@@ -763,7 +763,7 @@ var CLASSES = {
           credits: 1,
           description:
             "This course teaches mobile development on the iOS platform. Students must have a Macintosh laptop (or access to one) in order to participate in this course. Topics covered will be Xcode, Swift, design patterns, creating UI, networking, and common libraries (as per request) such as ARKit and Core ML. By the end of this course, students should have the resources necessary to create their own apps and publish to the app store.",
-          syllabus: "./assets/syllabi/CMSC389Q_F18.pdf",
+          syllabus: "./assets/syllabi/F18/CMSC389Q_F18.pdf",
           room: "CSI3118",
           day: "Friday",
           time: "2 - 2:50 PM"
@@ -782,7 +782,7 @@ var CLASSES = {
           description:
             "This course will discuss the history and analyze the evolution of Hip Hop and rap music from it’s early stages in the Nineteen Eighties to the Present day. Students will interact in class discussions and gain an understanding for the different sounds, messages, and impacts ofvarying Hip Hop artists and styles. From this, students will then apply learning from in class discussion by exploring previously unheard music and articulating their opinions. Throughout the course students will reflect on the value of Hip Hop to society and how it affects culture. Students will also get the chance to interact with local Hip-Hop artists as well as write and perform their own art as an extended learning opportunity to connect with the art form. Overall, students will learn and evaluate the intricacies of Hip Hop music and it’s importance to society.",
           syllabus:
-            "./assets/syllabi/MUSC248D_F18.pdf",
+            "./assets/syllabi/F18/MUSC248D_F18.pdf",
           room: "PAC2164",
           day: "Wednesday",
           time: "11 AM - 12:15 PM"
@@ -801,7 +801,7 @@ var CLASSES = {
           description:
             "A hands on, project driven introduction to developing Augmented Reality applications for devices like the Microsoft Hololens using the Microsoft Mixed Reality Toolkit and the Unity 3D engine. Topics will include AR design thinking, the Unity scripting API, deploying applications to Hololens, and the technology behind AR devices. Students will explore the capabilities of AR devices through bi-weekly projects designed to give them usable, valuable skills as quickly as possible. Basic programming and Unity experience, while not strictly required, are strongly recommended.",
           syllabus:
-            "./assets/syllabi/CMSC389U_F18.pdf",
+            "./assets/syllabi/F18/CMSC389U_F18.pdf",
           room: "CSI1122",
           day: "Friday",
           time: "1 - 1:50 PM"
@@ -820,7 +820,7 @@ var CLASSES = {
           description:
             "This course provides an overview of the key concepts and algorithms of Reinforcement Learning, an area of artificial intelligence research responsible for recent achievements such as AlphaGo and robotic control. Students will implement learning algorithms for simple tasks such as mazes and pong games.",
           syllabus:
-            "./assets/syllabi/CMSC389F_F18.pdf",
+            "./assets/syllabi/F18/CMSC389F_F18.pdf",
           room: "EGR2116",
           day: "Friday",
           time: "2 PM - 2:50 PM"
@@ -857,7 +857,7 @@ var CLASSES = {
           description:
             "This course is designed to teach how to use the most common and useful features of Wolfram Mathematica, an extremely powerful technical computing system that can be used to model a wide range of problems. Plotting functions in several ways, making models that can be manipulated in real time by the user, and efficiently computing solutions to complicated equations are among the things we'll cover. We'll use these skills to model various structures in physics, economics, calculus and more, and for the final project every student will pick something relevant to their major (or interest otherwise) to model, whether that be in physics, math, engineering, economics, or anything else mathematical in nature. Over the course of learning these tools students will encounter profound examples of what Mathematica can do, seeing first hand that creating models that can be manipulated in real time helps greatly in understanding the underlying symmetries and properties of a problem.",
           syllabus:
-            "./assets/syllabi/MATH299M_F18.pdf",
+            "./assets/syllabi/F18/MATH299M_F18.pdf",
           room: "MTH0401",
           day: "Friday",
           time: "2 PM - 2:50 PM"
@@ -876,7 +876,7 @@ var CLASSES = {
           description:
             "Combinatorics is the study of counting. Despite its deceptively simple name, it is one of the most active areas of research in modern mathematics. We discuss some of the basic ideas behind combinatorics, and their unexpected applications. The proofs we discuss are so elegant that Paul Erdos once said they are from “The Book” – God’s book of the most elegant proof of each theorem.",
           syllabus:
-            "./assets/syllabi/MATH299P_F18.pdf",
+            "./assets/syllabi/F18/MATH299P_F18.pdf",
           room: "MTH0407",
           day: "Friday",
           time: "1 PM - 1:50 PM"
@@ -894,7 +894,7 @@ var CLASSES = {
           description:
             "This course will introduce you to the fundamentals of graphic design in the context of business management. Students will be challenged to apply their design knowledge with hands-on activities, ranging from ideation to execution. Students will learn the necessity of branding, design and design thinking in the business world, while gaining the technical skills necessary to execute on their visions. To sharpen their communication skills, students will participate in in-class design challenges and a final class presentation.",
           syllabus:
-            "./assets/syllabi/BMGT299A_F18.pdf",
+            "./assets/syllabi/F18/BMGT299A_F18.pdf",
           room: "VMH1511",
           day: "Tuesday",
           time: "3:30 PM - 4:45 PM"
@@ -912,7 +912,7 @@ var CLASSES = {
           description:
             "“Exploration in Design” gives students the opportunity to apply their unique backgrounds to the realm of design. Students will engage in hands-on learning with real clients from various industries. We will explore how good and bad design plays a role in our everyday lives, from the way we order coffee to the logos on ads to the signs that help you navigate (or get lost on) the metro.",
           syllabus:
-            "./assets/syllabi/IDEA258D_F18.pdf",
+            "./assets/syllabi/F18/IDEA258D_F18.pdf",
           room: "ESJ2101",
           day: "Thursday",
           time: "12 PM - 1:30 PM"
@@ -931,7 +931,7 @@ var CLASSES = {
           description:
             "In this course you’ll be introduced and immersed into user- centric design experiences for mobile and web products. You’ll get to apply your learnings to real startup companies and use your design and product-thinking skills to design your own digital product. This class is for all level of designers/builders - from newbie to pro!",
           syllabus:
-            "./assets/syllabi/IDEA258Z_F18.pdf",
+            "./assets/syllabi/F18/IDEA258Z_F18.pdf",
           room: "ESJ2101",
           day: "Thursday",
           time: "2 PM - 3:15 PM"
@@ -949,7 +949,7 @@ var CLASSES = {
           description:
             "This is a beginner’s course for anyone who has had little to no exposure to Yorùbá or those who know Yorùbá but would like to learn how to read and write in the language. The main focus of this course will be basic greetings, sentence structure and vocabulary.",
           syllabus:
-            "./assets/syllabi/AASP299Y_F18.pdf",
+            "./assets/syllabi/F18/AASP299Y_F18.pdf",
           room: "WDS0104",
           day: "Monday",
           time: "3:30 PM - 4:45 PM"
@@ -968,7 +968,7 @@ var CLASSES = {
           description:
             "From language to tradition, Elementary Igbo I provides insight into tradition, culture and their importance to Igbo language. Students will be provided with the tool set to read, write, and speak Igbo. This is part of the STIC (student initiated courses) program and will be taught by undergraduates under the supervision of a faculty advisor.",
           syllabus:
-            "./assets/syllabi/AASP299I_F18.pdf",
+            "./assets/syllabi/F18/AASP299I_F18.pdf",
           room: "LEF1201",
           day: "Monday",
           time: "3:30 PM - 4:45 PM"
@@ -988,7 +988,7 @@ var CLASSES = {
           description:
             "This practical, hands-on 1-credit course provides students with an introduction to ethical hacking. The course begins with a discussion on the ethics behind security research and progresses to topics that surround penetration testing, forensics, cryptology, and binary reverse engineering and exploitation. This course is also meant to introduce students to Capture-the-Flag (CTF) style cybersecurity challenges, encourages participation in UMD’s Cybersecurity Club (UMDCSEC), and prepares for CMSC414.",
           syllabus:
-            "./assets/syllabi/CMSC389R_F18.pdf",
+            "./assets/syllabi/F18/CMSC389R_F18.pdf",
           room: "deprecated",
           day: "deprecated",
           time: "deprecated"
@@ -1007,7 +1007,7 @@ var CLASSES = {
           description:
             "Akwaaba (Welcome)! This is a language course designed to provide basic communicative competence in oral Twi for beginners. We will begin by introducing students to the Ghanaian culture. As we advance through the course, you will notice that we place less emphasis on formal grammatical instruction and more emphasis on everyday speech. This is because we want to prepare you for everyday conversation with family and friends. Through weekly lessons and activities, we hope to build your confidence when speaking Twi and also help you build a community with other students on campus.",
           syllabus:
-            "./assets/syllabi/AASP299T_F18.pdf",
+            "./assets/syllabi/F18/AASP299T_F18.pdf",
           room: "deprecated",
           day: "deprecated",
           time: "deprecated" // TODO deprecate these fields completely
@@ -1025,7 +1025,7 @@ var CLASSES = {
           description:
             "This course aims to provide students with a practical understanding of popular algorithms used in self driving cars. Both traditional and deep learning approaches will be used to solve scene understanding and control.",
           syllabus:
-            "./assets/syllabi/CMSC389Y_F18.pdf",
+            "./assets/syllabi/F18/CMSC389Y_F18.pdf",
           room: "deprecated",
           day: "deprecated",
           time: "deprecated" // TODO deprecate these fields completely
@@ -1040,7 +1040,7 @@ var CLASSES = {
           credits: 1,
           description:
             "This class explores the fundamentals of digital logic design using Minecraft's Redstone. Using the low-level and intuitive visualization of circuitry Redstone provides, you will create a series of projects that apply principles of digital logic design learned in class.",
-          syllabus: "./assets/syllabi/CMSC389E_F18.pdf",
+          syllabus: "./assets/syllabi/F18/CMSC389E_F18.pdf",
           room: "deprecated",
           day: "deprecated",
           time: "deprecated"
@@ -1067,29 +1067,12 @@ var CLASSES = {
           website: null,
         },
         {
-          id: 43,
-          department: "CMSC",
-          number: "388E",
-          title: "Creative Approaches to Computing",
-          facilitators: [
-            { name: "Amy Zhao", email: null },
-            { name: "Sana Shah", email: null },
-            { name: "Astha Singhal", email: null }
-          ],
-          advisor: "Roger Eastman",
-          credits: 1,
-          description:
-            "This class aims to bring the creativity back into computing by teaching basic art and design principles through the medium of coding. By bringing together Processing, a visual arts coding language, and different hallmarks of art theory, we want to teach an innovative class that empowers students to connect with their creative side. Students should come in wih basic coding knowledge but can expect to leave with agreater appreciation for digital media.",
-          syllabus: null,
-          website: null,
-        },
-        {
           id: 44,
           department: "CMSC",
           number: "389C",
           title: "Bitcoin and Other Cryptocurrencies",
           facilitators: [
-            { name: "Cameron Payton", email: null },
+            { name: "Cameron Payton", email: "cpayton@umd.edu" },
           ],
           advisor: "Jonathan Katz",
           credits: 1,
@@ -1104,8 +1087,8 @@ var CLASSES = {
           number: "389K",
           title: "Full-stack Web Development with Node.js",
           facilitators: [
-            { name: "Benny Cheng", email: null },
-            { name: "Chirag Shankar", email: null }
+            { name: "Benny Cheng", email: "bcheng1996@gmail.com" },
+            { name: "Chirag Shankar", email: "chishankar@gmail.com" }
           ],
           advisor: "John Dickerson",
           credits: 1,
@@ -1120,8 +1103,8 @@ var CLASSES = {
           number: "389O",
           title: "The Coding Interview",
           facilitators: [
-            { name: "Maria McCulley", email: null },
-            { name: "Nelson Le", email: null }
+            { name: "Maria McCulley", email: "mmccull2@umd.edu" },
+            { name: "Nelson Le", email: "nle@terpmail.umd.edu" }
           ],
           advisor: "Thomas Goldstein",
           credits: 1,
@@ -1152,7 +1135,7 @@ var CLASSES = {
           number: "258D",
           title: "Explorations in Design",
           facilitators: [
-            { name: "Tianxin Chen", email: null },
+            { name: "Tianxin Chen", email: "chen128@umd.edu" },
           ],
           advisor: "Meenu Singh",
           credits: 1,
@@ -1167,12 +1150,60 @@ var CLASSES = {
           number: "299C",
           title: "Mathematics & Classical Music",
           facilitators: [
-            { name: "Siri Neerchal", email: null },
+            { name: "Siri Neerchal", email: "siri@terpmail.umd.edu" },
           ],
           advisor: "Niranjan Ramachandran",
           credits: 1,
           description:
             "The aim of this course is to explore the historical discoveries in mathematics that have influenced Western classical music, as well as musical expressions of specific mathematical concepts. This course is not meant to be a rigorous introduction to music theory or mathematics; rather, it is focused on introducing students to classical music through mathematical ideas that appear in it. Students will also have an opportunity to explore mathematics through music in the form of a creative project.",
+          syllabus: null,
+          website: null,
+        },
+        {
+          id: 50,
+          department: "CMSC",
+          number: "388E",
+          title: "Creative Approaches to Computing: Arts and Tech",
+          facilitators: [
+            { name: "Astha Singhal", email: "asinghal084@gmail.com" },
+            { name: "Amy Zhao", email: "zhaoamy123@gmail.com" },
+            { name: "Sana Shah", email: "sana@shah.org " },
+          ],
+          advisor: "Roger Eastman",
+          credits: 1,
+          description:
+            "This class aims to bring the creativity back into computing by teaching basic art and design principles through the medium of coding. By bringing together Processing, a visual arts coding language, and different hallmarks of art theory, we want to teach an innovative class that empowers students to connect with their creative side. Students should come in with basic coding knowledge but can expect to leave with a greater appreciation for digital media.",
+          syllabus: "./assets/syllabi/S19/CMSC388E_S19.pdf",
+          website: null,
+        },
+        {
+          id: 51,
+          department: "ENME",
+          number: "289P",
+          title: "Additive Manufacturing for Prosthetic Design",
+          facilitators: [
+            { name: "Saul Schaffer", email: "saul@umd.edu" },
+            { name: "Anna Packy", email: "apacky@eng.umd.edu" },
+          ],
+          advisor: "Angie Bryl",
+          credits: 2,
+          description:
+            "Exploring how to leverage 3D printing to improve performance and comfort of prosthetic devices.",
+          syllabus: "./assets/syllabi/S19/CMSC388E_S19.pdf",
+          website: null,
+        },
+        {
+          id: 52,
+          department: "MATH",
+          number: "299O",
+          title: "Algorithms and Probability in Board Games with a Focus of Bridge",
+          facilitators: [
+            { name: "Hakan Berk", email: "hakan.t.berk@gmail.com" },
+          ],
+          advisor: "Lawrence Washington",
+          credits: 1,
+          description:
+            "",
           syllabus: null,
           website: null,
         },
