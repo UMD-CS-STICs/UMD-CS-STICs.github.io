@@ -1119,14 +1119,14 @@ var CLASSES = {
           number: "388F",
           title: "Functional Pearls",
           facilitators: [
-            { name: "Cameron Moy", email: null },
-            { name: "Ben Mariano", email: null }
+            { name: "Cameron Moy", email: "camoy@cs.umd.edu" },
+            { name: "Ben Mariano", email: "benmar@cs.umd.edu" }
           ],
           advisor: "David Van Horn",
           credits: 1,
           description:
             "This course will explore elegant examples of functional programming. The first half will provide an introduction to Haskell and four important abstractions: monoids, functors, applicative functors, and monads. We will focus on simple and plentiful examples. The second half will cover a wide variety of functional programming techniques and applications.",
-          syllabus: null,
+          syllabus: './assets/syllabi/S19/CMSC388F_S19.pdf',
           website: null,
         },
         {
@@ -1156,7 +1156,7 @@ var CLASSES = {
           credits: 1,
           description:
             "The aim of this course is to explore the historical discoveries in mathematics that have influenced Western classical music, as well as musical expressions of specific mathematical concepts. This course is not meant to be a rigorous introduction to music theory or mathematics; rather, it is focused on introducing students to classical music through mathematical ideas that appear in it. Students will also have an opportunity to explore mathematics through music in the form of a creative project.",
-          syllabus: null,
+          syllabus: './assets/syllabi/S19/MATH299C_S19.pdf',
           website: null,
         },
         {
@@ -1203,8 +1203,8 @@ var CLASSES = {
           advisor: "Lawrence Washington",
           credits: 1,
           description:
-            "",
-          syllabus: null,
+            "The purpose of this course is to give students an application of algorithms and probability using games such as bridge, chess, and Go. First there will be an introduction to the card game of bridge for those that have never played before. This includes a history of the game and the basics of how to play. Second, there will be an introduction to probability for those that may not have taken a class in statistics or could use a refresher. Then, the course will go in depth on how bridge is an application of probability and how it can be used to improve quickly.  Within this context, we will think about how to implement these solutions programmatically. Finally the connection between bridge, chess, and Go AI’s will be explored in the last third of the course.",
+          syllabus: "./assets/syllabi/S19/MATH299O_S19.pdf",
           website: null,
         },
         // {
