@@ -41,9 +41,6 @@ h2 {
   font-size: 4rem;
   font-weight: 900; }
 
-p {
-  color: #808080; }
-
 a {
   color: #D95444;
   font-weight: bold; }
@@ -84,7 +81,8 @@ strong {
 .highlight {
   padding: 4px;
   border-radius: 2px;
-  background-color: #b7efc5; }
+  background-color: #b7efc5;
+  color: #000; }
 
 a.button, article.catalog article.catalog-settings .search-input {
   background-color: white;
