@@ -1254,21 +1254,21 @@ var CLASSES = {
           syllabus: null,
           website: null,
         },
-        {
-          id: 56,
-          department: "AASP",
-          number: "299I",
-          title: "Elementary Igbo II",
-          facilitators: [
-            { name: "TBD", email: null },
-          ],
-          advisor: "Sangeetha Madhavan",
-          credits: 1,
-          description:
-            "...",
-          syllabus: null,
-          website: null,
-        },
+        // {
+        //   id: 56,
+        //   department: "AASP",
+        //   number: "299I",
+        //   title: "Elementary Igbo II",
+        //   facilitators: [
+        //     { name: "TBD", email: null },
+        //   ],
+        //   advisor: "Sangeetha Madhavan",
+        //   credits: 1,
+        //   description:
+        //     "...",
+        //   syllabus: null,
+        //   website: null,
+        // },
         {
           id: 57,
           department: "AASP",
