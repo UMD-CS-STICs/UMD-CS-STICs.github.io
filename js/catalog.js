@@ -1254,51 +1254,51 @@ var CLASSES = {
           syllabus: null,
           website: null,
         },
-        // {
-        //   id: 50,
-        //   department: "AASP",
-        //   number: "299I",
-        //   title: "Elementary Igbo II",
-        //   facilitators: [
-        //     { name: "TBD", email: null },
-        //   ],
-        //   advisor: "Sangeetha Madhavan",
-        //   credits: 1,
-        //   description:
-        //     "...",
-        //   syllabus: null,
-        //   website: null,
-        // },
-        // {
-        //   id: 51,
-        //   department: "AASP",
-        //   number: "299T",
-        //   title: "Elementary Twi I",
-        //   facilitators: [
-        //     { name: "TBD", email: null },
-        //   ],
-        //   advisor: "George Kintiba",
-        //   credits: 1,
-        //   description:
-        //     "...",
-        //   syllabus: null,
-        //   website: null,
-        // },
-        // {
-        //   id: 52,
-        //   department: "AASP",
-        //   number: "299YT",
-        //   title: "Elemantary Yoruba II",
-        //   facilitators: [
-        //     { name: "TBD", email: null },
-        //   ],
-        //   advisor: "Jason Nichols",
-        //   credits: 1,
-        //   description:
-        //     "...",
-        //   syllabus: null,
-        //   website: null,
-        // },
+        {
+          id: 56,
+          department: "AASP",
+          number: "299I",
+          title: "Elementary Igbo II",
+          facilitators: [
+            { name: "TBD", email: null },
+          ],
+          advisor: "Sangeetha Madhavan",
+          credits: 1,
+          description:
+            "...",
+          syllabus: null,
+          website: null,
+        },
+        {
+          id: 57,
+          department: "AASP",
+          number: "299T",
+          title: "Elementary Twi II",
+          facilitators: [
+            { name: "TBD", email: null },
+          ],
+          advisor: "George Kintiba",
+          credits: 1,
+          description:
+            "...",
+          syllabus: null,
+          website: null,
+        },
+        {
+          id: 58,
+          department: "AASP",
+          number: "299Y",
+          title: "Elemantary Yoruba II",
+          facilitators: [
+            { name: "TBD", email: null },
+          ],
+          advisor: "Jason Nichols",
+          credits: 1,
+          description:
+            "...",
+          syllabus: null,
+          website: null,
+        },
       ],
     }
   }
