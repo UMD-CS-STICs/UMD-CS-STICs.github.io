@@ -1094,7 +1094,7 @@ var CLASSES = {
           credits: 1,
           description:
             "This course provides a comprehens ive, practical introduction to modern full-stack web development using JavaScript and Node.js. The course will start with basic HTML/CSS/JavScr ipt. Then, we will move into Node.js and learn how to deploy a website from there. We will learn about Express.js (server-side development modu le) and MongoDB (database) in order to create a complete web application.",
-          syllabus: null,
+          syllabus: "https://github.com/UMD-CS-STICs/389Kspring19",
           website: null,
         },
         {
@@ -1205,6 +1205,53 @@ var CLASSES = {
           description:
             "The purpose of this course is to give students an application of algorithms and probability using games such as bridge, chess, and Go. First there will be an introduction to the card game of bridge for those that have never played before. This includes a history of the game and the basics of how to play. Second, there will be an introduction to probability for those that may not have taken a class in statistics or could use a refresher. Then, the course will go in depth on how bridge is an application of probability and how it can be used to improve quickly.  Within this context, we will think about how to implement these solutions programmatically. Finally the connection between bridge, chess, and Go AI’s will be explored in the last third of the course.",
           syllabus: "./assets/syllabi/S19/MATH299O_S19.pdf",
+          website: null,
+        },
+        {
+          id: 53,
+          department: "CMSC",
+          number: "388I",
+          title: "WebAssembly OS",
+          facilitators: [
+            { name: "Willem Wyndham", email: null },
+          ],
+          advisor: "Michael Hicks",
+          credits: 1,
+          description:
+            "WebAssembly (wasm) is a new virtual machine designed by the four major browsers to run code almost as fast as native code. The goal is to add Operating System features to WebAssembly. To implement these features students will use AssemblyScript, a subset of Javascript which compiles to wasm.",
+          syllabus: null,
+          website: null,
+        },
+        {
+          id: 54,
+          department: "CMSC",
+          number: "389R",
+          title: "Introduction to Ethical Hacking",
+          facilitators: [
+            { name: "Michael Reininger", email: null },
+            { name: "Wesley Weidenhamer", email: null }
+          ],
+          advisor: "David Levin",
+          credits: 1,
+          description:
+            "An introduction to ethical hacking geared towards entering the competitive world of cybersecurity Capture the Flag (CTF) competitions. Applications to a career in digital forensics, penetration testing, cryptology, and secure software development.",
+          syllabus: null,
+          website: null,
+        },
+        {
+          id: 55,
+          department: "CMSC",
+          number: "389E",
+          title: "Digital Logic through Minecraft",
+          facilitators: [
+            { name: "Alex Brassel", email: "abrassel@umd.edu" },
+            { name: "Ajeet Gary", email: "agary@terpmail.umd.edu" }
+          ],
+          advisor: "Jason Filippou",
+          credits: 1,
+          description:
+            "Explores the fundamentals of digital logic design using Minecraft's Redstone. Using the low-level and intuitive visualization ofcircuitry Redstone provides, you will create a series of projects thatapply principles of digital logic design learned in class.",
+          syllabus: null,
           website: null,
         },
         // {
