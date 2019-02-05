@@ -132,8 +132,8 @@ function update(semester) {
   if (classesToDisplay === "")
     classesToDisplay = "No classes were found.";
 
-  if (semester === CURRENT_SEMESTER)
-    classesToDisplay += '<div class="classes-footer"><h3>More classes coming soon.</h3></div>';
+  // if (semester === CURRENT_SEMESTER)
+  //   classesToDisplay += '<div class="classes-footer"><h3>More classes coming soon.</h3></div>';
   $("#displayedCourses").html(classesToDisplay);
 }
 
@@ -1063,7 +1063,7 @@ var CLASSES = {
           credits: 1,
           description:
             "This course will provide basic insight into the design process of a Java game engine, 2D graphics, and the mathematics behind it. The primary focus of the course will be on 2D game engines but will discuss ideas relevant to 3D environments.",
-          syllabus: null,
+          syllabus: "./assets/syllabi/S19/CMSC388D_S19.pdf",
           website: null,
         },
         {
@@ -1110,7 +1110,7 @@ var CLASSES = {
           credits: 1,
           description:
             'Students will be provided with a comprehensive, practical introduction to technical interviews. Starting with basic topics such as Big O and String Manipulation. We will then move into more complex topics such as Bit Manipulation and Dynamic Programming. Most of the classes will be "In-Class Interviews" and take-home assignments will simulate real interview settings.',
-          syllabus: null,
+          syllabus: "./assets/syllabi/S19/CMSC389O_S19.pdf",
           website: null,
         },
         {
@@ -1141,7 +1141,7 @@ var CLASSES = {
           credits: 1,
           description:
             "Explorations in Design will give students the opportunity to apply their unique backgrounds to the realm of design. Students will engage in hands-on learning with real clients from various industries. We will explore how good and bad design plays a role in our everyday lives, from the way we order coffee to the logos you see to the signs that help you navigate (or get lost on) the metro.",
-          syllabus: null,
+          syllabus: './assets/syllabi/S19/IDEA258D_S19.pdf',
           website: null,
         },
         {
@@ -1219,7 +1219,7 @@ var CLASSES = {
           credits: 1,
           description:
             "WebAssembly (wasm) is a new virtual machine designed by the four major browsers to run code almost as fast as native code. The goal is to add Operating System features to WebAssembly. To implement these features students will use AssemblyScript, a subset of Javascript which compiles to wasm.",
-          syllabus: null,
+          syllabus: "./assets/syllabi/S19/CMSC389I_S19.pdf",
           website: null,
         },
         {
@@ -1280,8 +1280,8 @@ var CLASSES = {
           advisor: "George Kintiba",
           credits: 1,
           description:
-            "...",
-          syllabus: null,
+            "Akwaaba (Welcome)! This is a language course designed to provide basic communicative competence in oral Twi for beginners. We will begin by introducing students to the Ghanaian culture. As we advance through the course, you will notice that we place less emphasis on formal grammatical instruction and more emphasis on everyday speech. This is because we want to prepare you for an everyday conversation with family and friends. Through weekly lessons and activities, we hope to build your confidence when speaking Twi and also help you build a community with other students on campus.",
+          syllabus: "./assets/syllabi/S19/AASP299T_S19.pdf",
           website: null,
         },
         {
@@ -1297,6 +1297,22 @@ var CLASSES = {
           description:
             "...",
           syllabus: null,
+          website: null,
+        },
+        {
+          id: 59,
+          department: "IDEA",
+          number: "258Z",
+          title: "Digital Product Design",
+          facilitators: [
+            { name: "Andy Moon", email: "msoohyun88@gmail.com" },
+            { name: "Chloe Jones", email: "cjones97@umd.edu" },
+          ],
+          advisor: "Meenu Singh",
+          credits: 1,
+          description:
+            "Welcome to Digital Product Design! In this course you'll be introduced and immersed into user-centric design experiences for mobile and web products. You'll get to apply your learnings to real startup companies and use your design and product-thinking skills to design your own digital product. This class is for all levels of designers/builders - from newbie to pro!",
+          syllabus: "./assets/syllabi/S19/IDEA258Z_S19.pdf",
           website: null,
         },
       ],
