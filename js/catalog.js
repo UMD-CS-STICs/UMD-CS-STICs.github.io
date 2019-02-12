@@ -1321,7 +1321,7 @@ var CLASSES = {
           number: "489",
           title: "Learning Experience Design Studio",
           facilitators: [
-            { name: "Tianxin Chen", email: "msoohyun88@gmail.com" },
+            { name: "Tianxin Chen", email: "chen128@umd.edu" },
             { name: "Ishaan Parikh", email: "parikh.i.m@gmail.com" },
           ],
           advisor: "Meenu Singh",
