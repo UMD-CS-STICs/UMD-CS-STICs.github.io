@@ -1282,7 +1282,8 @@ var CLASSES = {
           number: "299T",
           title: "Elementary Twi II",
           facilitators: [
-            { name: "TBD", email: null },
+            { name: "Maame Sapong", email: "asapong@terpmail.umd.edu" },
+            { name: "Clydelle Agyei", email: "cagyei@terpmail.umd.edu" }
           ],
           advisor: "George Kintiba",
           credits: 1,
