@@ -1104,7 +1104,14 @@ var CLASSES = {
           title: "The Coding Interview",
           facilitators: [
             { name: "Maria McCulley", email: "mmccull2@umd.edu" },
-            { name: "Nelson Le", email: "nle@terpmail.umd.edu" }
+            { name: "Blue Keleher", email: "keleherblue@gmail.com" },
+            { name: "Katherine Chase", email: "katherine.m.chase@gmail.com" },
+            { name: "George Tong", email: "gjtong@umd.edu" },
+            { name: "Kusal De Alwis", email: "kdealwis@umd.edu" },
+            { name: "Dhruv Mehta", email: "dhruvnm2@gmail.com" },
+            { name: "Atharva Bhat:", email: "abhat98@gmail.com" },
+            { name: "Nelson Le", email: "nle@umd.edu" },
+            { name: "Tim Chen", email: "hello@timothychen.me" },
           ],
           advisor: "Thomas Goldstein",
           credits: 1,
