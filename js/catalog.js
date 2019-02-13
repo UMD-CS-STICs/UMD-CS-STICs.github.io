@@ -1284,21 +1284,21 @@ var CLASSES = {
           syllabus: "./assets/syllabi/S19/AASP299T_S19.pdf",
           website: null,
         },
-        {
-          id: 58,
-          department: "AASP",
-          number: "299Y",
-          title: "Elemantary Yoruba II",
-          facilitators: [
-            { name: "TBD", email: null },
-          ],
-          advisor: "Jason Nichols",
-          credits: 1,
-          description:
-            "...",
-          syllabus: null,
-          website: null,
-        },
+        // {
+        //   id: 58,
+        //   department: "AASP",
+        //   number: "299Y",
+        //   title: "Elemantary Yoruba II",
+        //   facilitators: [
+        //     { name: "TBD", email: null },
+        //   ],
+        //   advisor: "Jason Nichols",
+        //   credits: 1,
+        //   description:
+        //     "...",
+        //   syllabus: null,
+        //   website: null,
+        // },
         {
           id: 59,
           department: "IDEA",
@@ -1315,6 +1315,22 @@ var CLASSES = {
           syllabus: "./assets/syllabi/S19/IDEA258Z_S19.pdf",
           website: null,
         },
+        {
+          id: 60,
+          department: "IDEA",
+          number: "489",
+          title: "Learning Experience Design Studio",
+          facilitators: [
+            { name: "Tianxin Chen", email: "chen128@umd.edu" },
+            { name: "Ishaan Parikh", email: "parikh.i.m@gmail.com" },
+          ],
+          advisor: "Meenu Singh",
+          credits: 2,
+          description:
+            "In this class, we will deconstruct the elements of a learning experience and consider each element as a variable to experiment with in your teaching. You will also have the opportunity to share and discuss your teaching experiences with fellow facilitators.",
+          syllabus: "https://docs.google.com/document/d/1xaSIhIQpPZdrm8lI4tw9Xk1NfAertoY7Cu99AmCMjXk/edit?usp=sharing",
+          website: null,
+        }
       ],
     }
   }
