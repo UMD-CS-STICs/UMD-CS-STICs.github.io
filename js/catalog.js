@@ -1330,7 +1330,22 @@ var CLASSES = {
             "In this class, we will deconstruct the elements of a learning experience and consider each element as a variable to experiment with in your teaching. You will also have the opportunity to share and discuss your teaching experiences with fellow facilitators.",
           syllabus: "https://docs.google.com/document/d/1xaSIhIQpPZdrm8lI4tw9Xk1NfAertoY7Cu99AmCMjXk/edit?usp=sharing",
           website: null,
-        }
+        },
+        {
+          id: 61,
+          department: "MATH",
+          number: "299M",
+          title: "Visualization through Mathematica",
+          facilitators: [
+            { name: "Ajeet Gary", email: "agary@terpmail.umd.edu" }
+          ],
+          advisor: "William Goldman",
+          credits: 1,
+          description:
+            "A comprehensive course on the technical computing language Mathematica, starting with basics including plotting, computation, 3D modeling, and interactive output. The last weeks focus on advanced topics including parallelization, evaluation control, precomputation, and advanced dynamic functionality. The course culminates in personalized final projects on a topic of each student's choice - application vary from physics to finance to nueroscience and more.",
+          syllabus: null,
+          website: null,
+        },
       ],
     }
   }
