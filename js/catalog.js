@@ -367,7 +367,7 @@ var CLASSES = {
           description:
             "This course provides a comprehensive, practical introduction to the technology behind cryptocurrency and the economy surrounding it. This course will have a heavy emphasis on Bitcoin, but will touch on other types of cryptocurrency as well. This course is primarily intended to focus on the technological aspect of cryptocurrency, but we will also spend time discussing the economics of cryptocurrency.",
           syllabus:
-            "https://github.com/UMD-CS-STICs/389Cspring18",
+            "https://github.com/UMD-CS-STICs/389Cspring19",
           room: "CSIC3118",
           day: "Friday",
           time: "2:00 - 2:50 PM"
