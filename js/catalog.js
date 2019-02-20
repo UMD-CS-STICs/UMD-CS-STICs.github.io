@@ -1385,6 +1385,22 @@ var CLASSES = {
           syllabus: null,
           website: null,
         },
+        {
+          id: 64,
+          department: "MUSC",
+          number: "248D",
+          title: "Analysis of Hip Hop Music",
+          facilitators: [
+            { name: "Yannick Alexis", email: "yannickalexis@gmail.com" },
+            { name: "Jordan Weber", email: "jwebs2@umd.edu" }
+          ],
+          advisor: "William Evans",
+          credits: 1,
+          description:
+            "This course will discuss the history and analyze the evolution of Hip Hop and rap music from it’s early stages in the Nineteen Eighties to the Present day. Students will interact in class discussions and gain an understanding for the different sounds, messages, and impacts ofvarying Hip Hop artists and styles. From this, students will then apply learning from in class discussion by exploring previously unheard music and articulating their opinions. Throughout the course students will reflect on the value of Hip Hop to society and how it affects culture. Students will also get the chance to interact with local Hip-Hop artists as well as write and perform their own art as an extended learning opportunity to connect with the art form. Overall, students will learn and evaluate the intricacies of Hip Hop music and it’s importance to society.",
+          syllabus: null,
+          website: null,
+        },
       ],
     }
   }
