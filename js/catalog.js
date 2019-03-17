@@ -1088,8 +1088,8 @@ var CLASSES = {
           title: "Full-stack Web Development with Node.js",
           facilitators: [
             { name: "Benny Cheng", email: "bcheng1996@gmail.com" },
-            { name: "Chirag Shankar", email: "chishankar@gmail.com" }
-            { name: "Camille Stacho", email: "camstach@gmail.com" }
+            { name: "Chirag Shankar", email: "chishankar@gmail.com" },
+            { name: "Camille Stacho", email: "camstach@gmail.com" },
             { name: "Chidi Udeze", email: "chidiu98@gmail.com" }
           ],
           advisor: "John Dickerson",
