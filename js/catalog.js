@@ -1111,7 +1111,7 @@ var CLASSES = {
             { name: "George Tong", email: "gjtong@umd.edu" },
             { name: "Kusal De Alwis", email: "kdealwis@umd.edu" },
             { name: "Dhruv Mehta", email: "dhruvnm2@gmail.com" },
-            { name: "Atharva Bhat:", email: "abhat98@gmail.com" },
+            { name: "Atharva Bhat", email: "abhat98@gmail.com" },
             { name: "Nelson Le", email: "nle@umd.edu" },
             { name: "Tim Chen", email: "hello@timothychen.me" },
           ],
