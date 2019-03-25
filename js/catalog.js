@@ -1222,13 +1222,13 @@ var CLASSES = {
           number: "388I",
           title: "WebAssembly OS",
           facilitators: [
-            { name: "Willem Wyndham", email: null },
+            { name: "Willem Wyndham", email: "willem@cs.umd.edu" },
           ],
           advisor: "Michael Hicks",
           credits: 1,
           description:
             "WebAssembly (wasm) is a new virtual machine designed by the four major browsers to run code almost as fast as native code. The goal is to add Operating System features to WebAssembly. To implement these features students will use AssemblyScript, a subset of Javascript which compiles to wasm.",
-          syllabus: "./assets/syllabi/S19/CMSC389I_S19.pdf",
+          syllabus: "./assets/syllabi/S19/CMSC388I_S19.pdf",
           website: null,
         },
         {
