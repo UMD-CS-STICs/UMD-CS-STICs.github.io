@@ -1368,7 +1368,7 @@ var CLASSES = {
           credits: 1,
           description:
             "Explores the virtual reality game development best practices and use of commercial game engines to build VR experiences that are engaging, immersive, and reduce the onset of simulation sickness. Also, focuses on development with Unreal Engine using C++, using 3d models, lighting, and graphics to optimize experiences for VR.",
-          syllabus: null,
+          syllabus: "./assets/syllabi/S19/CMSC388G_S19.pdf",
           website: null,
         },
         {
