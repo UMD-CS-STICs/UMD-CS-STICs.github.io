@@ -1384,7 +1384,7 @@ var CLASSES = {
           credits: 1,
           description:
             "The course will assist students in gaining experience in a high demand practice of cybersecurity through weekly reversing assignments. Students will be challenged to think outside the box in order to solve reversing challenges. Assignments will be challenges focused in the analysis of Linux binaries including various malware. The goal is to have students go from beginner to intermediate level reverse engineers. Students will be expected to have some assembly experience prior to the class (calling conventions, stack/heap, registers), but students will be taught x86_64 assembly as the semester progresses.",
-          syllabus: null,
+          syllabus: "./assets/syllabi/S19/CMSC389J_S19.pdf",
           website: null,
         },
         {
