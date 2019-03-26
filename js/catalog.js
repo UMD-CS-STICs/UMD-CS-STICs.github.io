@@ -1056,8 +1056,8 @@ var CLASSES = {
           number: "388D",
           title: "2D Game Engine Design",
           facilitators: [
-            { name: "Sina Mirnejad", email: null },
-            { name: "Saadiq Shaik", email: null }
+            { name: "Sina Mirnejad", email: "smirneja@terpmail.umd.edu" },
+            { name: "Saadiq Shaik", email: "saadiqks@gmail.com" }
           ],
           advisor: "David Mount",
           credits: 1,
