@@ -1353,7 +1353,7 @@ var CLASSES = {
           credits: 1,
           description:
             "A comprehensive course on the technical computing language Mathematica, starting with basics including plotting, computation, 3D modeling, and interactive output. The last weeks focus on advanced topics including parallelization, evaluation control, precomputation, and advanced dynamic functionality. The course culminates in personalized final projects on a topic of each student's choice - application vary from physics to finance to nueroscience and more.",
-          syllabus: null,
+          syllabus: "./assets/syllabi/S19/MATH299M_S19.pdf",
           website: null,
         },
         {
