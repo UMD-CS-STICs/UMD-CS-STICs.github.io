@@ -1580,7 +1580,7 @@ var CLASSES = {
           ],
           advisor: "Wiseley Wong",
           credits: 1,
-          description: null,
+          description: "",
           syllabus: null,
           website: null,
         },
