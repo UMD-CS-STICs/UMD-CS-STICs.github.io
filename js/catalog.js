@@ -186,9 +186,9 @@ function createDiv(cl) {
 }
 
 // TODO add semesters here
-var SEMESTERS = ['spring 2017', 'fall 2017', 'spring 2018', 'fall 2018', 'spring 2019'];
+var SEMESTERS = ['spring 2017', 'fall 2017', 'spring 2018', 'fall 2018', 'spring 2019', 'fall 2019'];
 
-var CURRENT_SEMESTER = "spring 2019";
+var CURRENT_SEMESTER = "fall 2019";
 
 // TODO add classes here
 var CLASSES = {
@@ -1404,6 +1404,217 @@ var CLASSES = {
           website: null,
         },
       ],
+    },
+    'fall 2019': {
+      departments: ["CMSC", "MATH", "BSCI", "AASP"],
+      classes: [
+        {
+          id: 65,
+          department: "CMSC",
+          number: "388D",
+          title: "2D Game Engine Design",
+          facilitators: [
+            { name: "Sina Mirnejad", email: "smirneja@terpmail.umd.edu" },
+          ],
+          advisor: "David Mount",
+          credits: 2,
+          description:
+            "This course will provide basic insight into the design process of a Java game engine, 2D graphics, and the mathematics behind it. The primary focus of the course will be on 2D game engines but will discuss ideas relevant to 3D environments.",
+          syllabus: null,
+          website: null,
+        },
+        {
+          id: 66,
+          department: "CMSC",
+          number: "388J",
+          title: "Building Secure Web Applications with Python and Flask",
+          facilitators: [
+            { name: "Yashas Lokesh", email: null },
+            { name: "Kenton Wong", email: null }
+          ],
+          advisor: "Michael Marsh",
+          credits: 1,
+          description: "Students are introduced to building secure, full-stack web applications with Python and Flask. Different types of security vulnerabilities and best practices to patch in students own applications will be examined.",
+          syllabus: null,
+          website: null,
+        },
+        {
+          id: 67,
+          department: "CMSC",
+          number: "388L",
+          title: "Readings in HCI Research",
+          facilitators: [
+            { name: "Selena Alvarado", email: null },
+            { name: "Justin Goodman", email: null }
+          ],
+          advisor: "Evan Golub",
+          credits: 1,
+          description:
+            "In this course, most weeks students will read a particular research paper from the leading conference in Human-Computer Interaction, CHI2019, prepare in some way, and then participate in an in-class discussion. During the discussion, the key elements of HCI mentioned in the paper will be highlighted, and things like potential follow-up project ideas will be explored.",
+          syllabus: "./assets/syllabi/F19/CMSC388L_F19.pdf",
+          website: null,
+        },
+        {
+          id: 68,
+          department: "CMSC",
+          number: "388M",
+          title: "Introduction to Mobile XR",
+          facilitators: [
+            { name: "Sahil Mayenkar", email: "sahil.mayenkar@gmail.com" },
+            { name: "Joseph Feldmann", email: "josfeldmann@gmail.com" }
+          ],
+          advisor: "Roger Eastman",
+          credits: 1,
+          description:
+            "Students will explore the basics of smartphone-based augmented and virtual reality. Focus is placed on development of XR apps with Unity as well as the hardware, mathematics, physics, algorithms, best practices, and principles that make immersive experiences possible.",
+          syllabus: "./assets/syllabi/F19/CMSC388M_F19.pdf",
+          website: null,
+        },
+        {
+          id: 69,
+          department: "CMSC",
+          number: "389K",
+          title: "Full-stack Web Development with Node.js",
+          facilitators: [
+            { name: "Camille Stacho", email: "camstach@gmail.com" },
+          ],
+          advisor: "John Dickerson",
+          credits: 1,
+          description:
+            "This course provides a comprehensive, practical introduction to modern full-stack web development using JavaScript and Node.js. The course will start with basic HTML/CSS/JavaScript. Then, we will move into Node.js and learn how to deploy a website from there. We will learn about Express.js (server-side development module) and MongoDB (database) in order to create a complete web application.",
+          syllabus: "https://github.com/UMD-CS-STICs/389Kspring19",
+          website: null,
+        },
+        {
+          id: 70,
+          department: "CMSC",
+          number: "389O",
+          title: "The Coding Interview",
+          facilitators: [
+            { name: "Allen Cheng", email: "ac@allencheng.me" },
+            { name: "Andrew Witten", email: null },
+            { name: "Dhruv Mehta", email: "dhruvnm@umd.edu" },
+            { name: "Kusal De Alwis", email: "kdealwis@umd.edu" },
+            { name: "Lauren Kosub", email: null },
+            { name: "Omkar Konaraddi", email: null },
+            { name: "Shubhankar Sachdev,", email: null }
+          ],
+          advisor: "Tom Goldstein",
+          credits: 1,
+          description: "This course provides a comprehensive, practical introduction to technical interviews. The course will start with basic topics such as Big O and String Manipulation. We will then move into more complex topics such as Graphs and Dynamic Programming. Most of the classes will be in-class interviews to give real interview practice.",
+          syllabus: "./assets/syllabi/F19/CMSC389O_F19.pdf",
+          website: null,
+        },
+        {
+          id: 71,
+          department: "CMSC",
+          number: "389R",
+          title: "Introduction to Ethical Hacking",
+          facilitators: [
+            { name: "Michael Reininger", email: "michael@csec.umiacs.umd.edu" },
+            { name: "Walter Weidenhamer", email: null }
+          ],
+          advisor: "Dave Levin",
+          credits: 1,
+          description:
+            "An introduction to ethical hacking geared towards entering the competitive world of cybersecurity Capture the Flag (CTF) competitions. Applications to a career in digital forensics, penetration testing, cryptology, and secure software development.",
+          syllabus: "./assets/syllabi/F19/CMSC389R_F19.pdf",
+          website: null,
+        },
+        {
+          id: 72,
+          department: "CMSC",
+          number: "389W",
+          title: "Visualization Through Mathematica",
+          facilitators: [
+            { name: "Devan Tamot", email: "tamotd@gmail.com" },
+            { name: "Vlad Dobrin", email: "vlad.a.dobrin@gmail.com" },
+            { name: "Dan Zou", email: null}
+          ],
+          advisor: "William Goldman",
+          credits: 1,
+          description:
+            "This course is designed to teach how to use the most common and useful features of Wolfram Mathematica, an extremely powerful technical computing system that can be used to model a wide range of problems. Students will also learn important techniques and styles that will equip them with a profound mastery of Mathematica.",
+          syllabus: "./assets/syllabi/F19/CMSC389W_F19.pdf",
+          website: null,
+        },
+        {
+          id: 73,
+        department: "MATH",
+        number: "299C",
+        title: "Mathematics & Classical Music",
+        facilitators: [
+          { name: "Siri Neerchal", email: "siri@terpmail.umd.edu" },
+          { name: "Noah Whiteman", email: "whiteman@terpmail.umd.edu"}
+        ],
+        advisor: "Niranjan Ramachandran",
+        credits: 1,
+        description:
+          "The aim of this course is to explore the historical discoveries in mathematics that have influenced Western classical music, as well as musical expressions of specific mathematical concepts. This course is not meant to be a rigorous introduction to music theory or mathematics; rather, it is focused on introducing students to classical music through mathematical ideas that appear in it. Students will also have an opportunity to explore mathematics through music in the form of a creative project.",
+        syllabus: "./assets/syllabi/F19/MATH299C_F19.pdf",
+        website: null,
+        },
+        {
+          id: 74,
+          department: "MATH",
+          number: "299E",
+          title: "The Mathematics of Erdos",
+          facilitators: [
+            { name: "Tanay Wakhare", email: "twakhare@gmail.com" },
+            { name: "Aaron Benda", email: "abenda19@gmail.com" }
+          ],
+          advisor: "Larry Washington",
+          credits: 1,
+          description:
+            "Combinatorics is the study of counting. Despite its deceptively simple name, it is one of the most active areas of research in modern mathematics. We discuss some of the basic ideas behind combinatorics, and their unexpected applications. The proofs we discuss are so elegant that Paul Erdos once said they are from “The Book” – God’s book of the most elegant proof of each theorem.",
+          syllabus: "./assets/syllabi/F19/MATH299E_F19.pdf",
+          website: null,
+        },
+        {
+          id: 75,
+          department: "MATH",
+          number: "299T",
+          title: "Poker Theory and Analysis",
+          facilitators: [
+            { name: "John Horine", email: null }
+          ],
+          advisor: "Wiseley Wong",
+          credits: 1,
+          description: null,
+          syllabus: null,
+          website: null,
+        },
+        {
+          id: 76,
+          department: "BSCI",
+          number: "238A",
+          title: "Ornithology",
+          facilitators: [
+            { name: "Madison Plunkert", email: null }
+          ],
+          advisor: "Thomas Holtz",
+          credits: 1,
+          description: "This course serves as an introduction to the field of ornithology, including the identification, evolution, and ecology of birds, as well as the methods by which biologists study these topics. Homework consists mainly of field observation. BSCI160 is a recommended prerequisite, as this course builds on introductory ecology principles and an understanding of natural selection.",
+          syllabus: null,
+          website: null,
+        },
+        {
+          id: 77,
+          department: "AASP",
+          number: "299T",
+          title: "Introduction to Twi",
+          facilitators: [
+            { name: "Maame Sapong", email: "asapong@terpmail.umd.edu" },
+            { name: "Clydelle Agyei", email: "agyeiclydelle@gmail.com" }
+          ],
+          advisor: "George Kintiba",
+          credits: 1,
+          description: "Akwaaba (Welcome)! This is a language course designed to provide basic communicative competence in oral Twi for beginners. We will begin by introducing students to the Ghanaian culture. As we advance through the course, you will notice that we place less emphasis on formal grammatical instruction and more emphasis on everyday speech. This is because we want to prepare you for everyday conversation with family and friends. Through weekly lessons and activities, we hope to build your confidence when speaking Twi and also help you build a community with other students on campus.",
+          syllabus: null,
+          website: null,
+        },
+
+        ]
     }
   }
 };
