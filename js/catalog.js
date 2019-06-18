@@ -1429,13 +1429,13 @@ var CLASSES = {
           number: "388J",
           title: "Building Secure Web Applications with Python and Flask",
           facilitators: [
-            { name: "Yashas Lokesh", email: null },
-            { name: "Kenton Wong", email: null }
+            { name: "Yashas Lokesh", email: "yashloke@terpmail.umd.edu" },
+            { name: "Kenton Wong", email: "kdubbs0@umd.edu" }
           ],
           advisor: "Michael Marsh",
           credits: 1,
-          description: "Students are introduced to building secure, full-stack web applications with Python and Flask. Different types of security vulnerabilities and best practices to patch in students own applications will be examined.",
-          syllabus: null,
+          description: "This course is an introduction to building secure, full-stack web applications with Python and Flask. We'll start with Python and Flask and transition to web application security, where we'll look at different types of security vulnerabilities and best practices to patch up these vulnerabilities in your own apps. Then, we'll go to building your own API and securely authenticating with it, and finish by showing you how you can deploy your web app!",
+          syllabus: "./assets/syllabi/F19/CMSC388J_F19.pdf",
           website: null,
         },
         {
@@ -1576,12 +1576,12 @@ var CLASSES = {
           number: "299T",
           title: "Poker Theory and Analysis",
           facilitators: [
-            { name: "John Horine", email: null }
+            { name: "John Horine", email: "jhorine@umd.edu" }
           ],
           advisor: "Wiseley Wong",
           credits: 1,
-          description: "",
-          syllabus: null,
+          description: "The purpose of this course is to apply probability and statistical models to optimize strategy in the game of No Limit Texas Hold’em. First we will introduce the basics of poker and fundamental strategies and explore the statistical foundations that govern the game. Then we will expand upon this initial framework and study concepts such as range analysis, exploitative playstyles, and frequencies as they relate to optimal strategy. Finally we will conclude the course with a discussion and application of tournament play.",
+          syllabus: "./assets/syllabi/F19/MATH299T_F19.pdf",
           website: null,
         },
         {
