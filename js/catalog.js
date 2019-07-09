@@ -1406,7 +1406,7 @@ var CLASSES = {
       ],
     },
     'fall 2019': {
-      departments: ["CMSC", "MATH", "BSCI", "AASP"],
+      departments: ["CMSC", "MATH", "BSCI", "AASP", "IDEA"],
       classes: [
         {
           id: 65,
@@ -1512,7 +1512,7 @@ var CLASSES = {
           title: "Introduction to Ethical Hacking",
           facilitators: [
             { name: "Michael Reininger", email: "michael@csec.umiacs.umd.edu" },
-            { name: "Walter Weidenhamer", email: null }
+            { name: "Wesley  Weidenhamer", email: null }
           ],
           advisor: "Dave Levin",
           credits: 1,
@@ -1610,6 +1610,21 @@ var CLASSES = {
           advisor: "George Kintiba",
           credits: 1,
           description: "Akwaaba (Welcome)! This is a language course designed to provide basic communicative competence in oral Twi for beginners. We will begin by introducing students to the Ghanaian culture. As we advance through the course, you will notice that we place less emphasis on formal grammatical instruction and more emphasis on everyday speech. This is because we want to prepare you for everyday conversation with family and friends. Through weekly lessons and activities, we hope to build your confidence when speaking Twi and also help you build a community with other students on campus.",
+          syllabus: null,
+          website: null,
+        },
+        {
+          id: 78,
+          department: "IDEA",
+          number: "258D",
+          title: "Explorations in Design",
+          facilitators: [
+            { name: "Cat Chiang", email: "catchiang02@gmail.com" },
+            { name: "Clark Mitchell", email: "clarkmitchell@me.com" }
+          ],
+          advisor: "Brooke Smith",
+          credits: 1,
+          description: "“Explorations in Design” gives students the opportunity to apply their unique backgrounds to the realm of design. Students will engage in hands-on learning with real world applications to incorporate design thinking into everyday life. We will explore how good and bad design plays a role in the mundane, from the way we order coffee to the logos you see to the signs that help you navigate (or get lost) on the metro.",
           syllabus: null,
           website: null,
         },
