@@ -1444,8 +1444,8 @@ var CLASSES = {
           number: "388L",
           title: "Readings in HCI Research",
           facilitators: [
-            { name: "Selena Alvarado", email: null },
-            { name: "Justin Goodman", email: null }
+            { name: "Selena Alvarado", email: "selalvarado25@gmail.com" },
+            { name: "Justin Goodman", email: "jugoodma@terpmail.umd.edu" }
           ],
           advisor: "Evan Golub",
           credits: 1,
@@ -1590,12 +1590,12 @@ var CLASSES = {
           number: "238A",
           title: "Ornithology",
           facilitators: [
-            { name: "Madison Plunkert", email: null }
+            { name: "Madison Plunkert", email: "mplunker@terpmail.umd.edu" }
           ],
           advisor: "Thomas Holtz",
           credits: 1,
           description: "This course serves as an introduction to the field of ornithology, including the identification, evolution, and ecology of birds, as well as the methods by which biologists study these topics. Homework consists mainly of field observation. BSCI160 is a recommended prerequisite, as this course builds on introductory ecology principles and an understanding of natural selection.",
-          syllabus: null,
+          syllabus: "./assets/syllabi/F19/BSCI238A_F19.pdf",
           website: null,
         },
         {
