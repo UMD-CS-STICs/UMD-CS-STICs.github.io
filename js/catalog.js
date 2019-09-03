@@ -1627,7 +1627,7 @@ var CLASSES = {
           advisor: "Brooke Smith",
           credits: 1,
           description: "“Explorations in Design” gives students the opportunity to apply their unique backgrounds to the realm of design. Students will engage in hands-on learning with real world applications to incorporate design thinking into everyday life. We will explore how good and bad design plays a role in the mundane, from the way we order coffee to the logos you see to the signs that help you navigate (or get lost) on the metro.",
-          syllabus: null,
+          syllabus: "./assets/syllabi/F19/IDEA258D_F19.pdf",
           website: null,
         },
 
