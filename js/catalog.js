@@ -1,5 +1,6 @@
 // Catalog broken in IE bc ES6 is used in this file.
 
+//this code below means that "When the page finishes loading, call all of these functions"
 $("document").ready(function() {
     initializeSemestersDropdown();
     initializeFilterTags();
@@ -32,6 +33,7 @@ $(document).on('click', 'a.tag-option', function(e) {
   update($('#selectedSemester').text());
 });
 
+//Beginning to define functions, but not necessarily calling them
 function initializeFilterTags() {
   $("#filter-tags").html('');
   const semester = $("#selectedSemester").text();
@@ -447,7 +449,7 @@ var CLASSES = {
           advisor: "James Reggia",
           credits: 1,
           description:
-            "From mastering impossibly complex games to creating precise AI for self-driving cars, Reinforcement Learning is set to be a breakthrough technology in the coming decade. \nReinforcement Learning is a powerful area of AI responsible for the recent successes of industry titans such as DeepMind, OpenAI, Google Brain, and Tesla. It’s inspired by a simple concept from behavioral psychology- people who receive a reward after doing an activity will continue doing that activity- and applies that principle in an algorithmic way to create intelligent systems.\nIf you’d like to learn how to build an AI of your own using concepts from the cutting-edge of academic research and industry technology, come take CMSC389F: Reinforcement Learning! This course provides a theory-centric introduction to Reinforcement Learning, and students will learn the key concepts and algorithms driving Reinforcement Learning, including Markov Decision Processes, Monte Carlo Learning, and Policy Gradient methods.",
+            "From mastering impossibly complex games to creating precise AI for self-driving cars, Reinforcement Learning is set to be a breakthrough technology in the coming decade. \nReinforcement Learning is a powerful area of AI responsible for the recent successes of industry titans such as DeepMind, OpenAI, Google Brain, and Tesla. It’s inspired by a simple concept from behavioral psychology- people who receive a reward after doing an activity will continue doing that activity- and applies that principle in an algorithmic way to create intelligent systems. If you’d like to learn how to build an AI of your own using concepts from the cutting-edge of academic research and industry technology, come take CMSC389F: Reinforcement Learning! This course provides a theory-centric introduction to Reinforcement Learning, and students will learn the key concepts and algorithms driving Reinforcement Learning, including Markov Decision Processes, Monte Carlo Learning, and Policy Gradient methods.",
           syllabus:
             "https://github.com/mlatmd/cmsc389F",
           website:
