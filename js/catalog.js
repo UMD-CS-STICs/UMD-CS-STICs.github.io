@@ -1121,8 +1121,8 @@ var CLASSES = {
           credits: 1,
           description:
             'Students will be provided with a comprehensive, practical introduction to technical interviews. Starting with basic topics such as Big O and String Manipulation. We will then move into more complex topics such as Bit Manipulation and Dynamic Programming. Most of the classes will be "In-Class Interviews" and take-home assignments will simulate real interview settings.',
-          syllabus: "./assets/syllabi/S19/CMSC389O_S19.pdf",
-          website: null,
+          syllabus: "https://stics.umd.edu/cmsc389o/assets/S19/cmsc389o-syl.pdf",
+          website: "https://stics.umd.edu/cmsc389o/",
         },
         {
           id: 47,
@@ -1505,7 +1505,7 @@ var CLASSES = {
           credits: 1,
           description: "This course provides a comprehensive, practical introduction to technical interviews. The course will start with basic topics such as Big O and String Manipulation. We will then move into more complex topics such as Graphs and Dynamic Programming. Most of the classes will be in-class interviews to give real interview practice.",
           syllabus: "./assets/syllabi/F19/CMSC389O_F19.pdf",
-          website: null,
+          website: "https://stics.umd.edu/cmsc389o/",
         },
         {
           id: 71,
