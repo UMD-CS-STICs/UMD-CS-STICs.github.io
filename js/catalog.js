@@ -188,9 +188,9 @@ function createDiv(cl) {
 }
 
 // TODO add semesters here
-var SEMESTERS = ['spring 2017', 'fall 2017', 'spring 2018', 'fall 2018', 'spring 2019', 'fall 2019'];
+var SEMESTERS = ['spring 2017', 'fall 2017', 'spring 2018', 'fall 2018', 'spring 2019', 'fall 2019', 'spring 2020'];
 
-var CURRENT_SEMESTER = "fall 2019";
+var CURRENT_SEMESTER = "spring 2020";
 
 // TODO add classes here
 var CLASSES = {
@@ -1645,9 +1645,227 @@ var CLASSES = {
           syllabus: "./assets/syllabi/F19/IDEA258C_F19.pdf",
           website: null,
         },
+      ],
+    },
+    'spring 2020': {
+      departments: ["CMSC", "MATH", "BSCI", "AASP", "IDEA"],
+      classes: [
+        {
+          id: 80,
+          department: "CMSC",
+          number: "389E",
+          title: "Digital Logic through Minecraft",
+          facilitators: [
+            { name: "Akilesh Praveen", email: "apraveen@umd.edu" },
+            { name: "Ashwath Krishnan", email: "abkrish9@umd.edu" }
+          ],
+          advisor: "Alex Brassel",
+          credits: 1,
+          description:
+          "In this class, we will explore the theory and applications of combinational and sequential circuits. All projects will be done using Minecraft’s Redstone. The course will cover basic gates to more advanced circuits including memory gates and large sequential circuits. The first half of the class will focus on com- binational logic gates, and the second half will introduce time-based sequential circuits. By the end of the class you should be able to complete the final project, which will be assigned for the last three classes.",
+          syllabus: "./assets/syllabi/S20/CMSC389E_S20.pdf",
+          website: null,
+        },
+        {
+          id: 81,
+          department: "CMSC",
+          number: "388L",
+          title: "Readings in HCI Research",
+          facilitators: [
+            { name: "Selena Alvarado", email: "selalvarado25@gmail.com" },
+            { name: "Justin Goodman", email: "jugoodma@terpmail.umd.edu" }
+          ],
+          advisor: "Evan Golub",
+          credits: 1,
+          description:
+          "In this course, most weeks students will read a particular research paper from the leading conference in Human-Computer Interaction, CHI2019, prepare in some way, and then participate in an in-class discussion. During the discussion, the key elements of HCI mentioned in the paper will be highlighted, and things like potential follow-up project ideas will be explored.",
+          syllabus: "./assets/syllabi/S20/CMSC388L_S20.pdf",
+          website: null,
+        },
+        {
+          id: 82,
+          department: "CMSC",
+          number: "389K",
+          title: "Full-stack Web Development with Node.js",
+          facilitators: [
+            { name: "Robert Choe", email: "robert.d.choe67@gmail.com" },
+            { name: "Camille Stacho", email: "camstach@gmail.com" },
+            { name: "Jordan Mess", email: "jordanrmess@gmail.com"},
+            { name: " Eli Schwelling", email: "eschwe333@gmail.com "}
+          ],
+          advisor: "John Dickerson",
+          credits: 1,
+          description:
+          "This course provides a comprehensive, practical introduction to modern full-stack web development using JavaScript and Node.js. The course will start with basic HTML/CSS/JavaScript. Then, we will move into Node.js and learn how to deploy a website from there. We will learn about Express.js (server-side development module) and MongoDB (database) in order to create a complete web application.",
+          syllabus: "./assets/syllabi/S20/CMSC389K_S20.pdf",
+          website: null,
+        },
+        {
+          id: 83,
+          department: "CMSC",
+          number: "388J",
+          title: "Building Secure Web Applications with Python and Flask",
+          facilitators: [
+            { name: "Yashas Lokesh", email: "yashloke@umd.edu" },
+            { name: "Kenton Wong", email: "kdubbs0@umd.edu" }
+          ],
+          advisor: "Michael Marsh",
+          credits: 1,
+          description:
+          "This course is an introduction to building secure, full-stack web applications with Python and Flask. We'll start with Python and Flask and transition to web application security, where we'll look at different types of security vulnerabilities and best practices to patch up these vulnerabilities in your own apps. Then, we'll go to building your own API and securely authenticating with it, and finish by showing you how you can deploy your web app!",
+          syllabus: "./assets/syllabi/S20/CMSC388J_S20.pdf",
+          website: null,
+        },
+        {
+          id: 84,
+          department: "CMSC",
+          number: "388M",
+          title: "Intro to Mobile XR",
+          facilitators: [
+            { name: "Sahil Mayenkar", email: "sahil.mayenkar@gmail.com" },
+            { name: "Joseph Feldmann", email: "josfeldmann@gmail.com" }
+          ],
+          advisor: "Roger Eastman",
+          credits: 1,
+          description:
+          "In this course, students will explore the basics of mobile augmented, mixed, and virtual reality. Focus will be placed on development of XR apps with Unity as well as on the hardware, mathematics, physics, algorithms, best practices, and principles that make immersive experiences possible. By the end of the course, students will have also gained experience working in a team to develop a real-world XR application of their own choosing.",
+          syllabus: "./assets/syllabi/S20/CMSC388M_S20.pdf",
+          website: null,
+        },
+        {
+          id: 85,
+          department: "CMSC",
+          number: "389W",
+          title: "Visualization in Mathematica",
+          facilitators: [
+            { name: "Devan Tamot", email: "tamotd@cs.umd.edu" },
+            { name: "Dan Zou", email: "danzou12@cs.umd.edu" },
+            { name: "Vlad Dobrin", email: "vdobrin@umd.edu" }
+          ],
+          advisor: "Jason Filippou",
+          credits: 1,
+          description:
+          "This course is designed to teach how to use the most common and useful features of Wolfram Mathatica, an extremely powerful technical computing system that can be used to model a wide range of problems. Students will also learn important techniques and styles that will equip them with a profound mastery of Mathematica. Plotting functions in several ways, making models that can be manipulated in real time by the user, and efficiently computing solutions to complicated equations are among the things we'll cover. We'll use these skills to model various structures in math, computer science and physics, and for the final project every student will pick something relevant to their major (or interest otherwise) to model, whether that be in physics, math, engineering, economics, or anything else mathematical in nature.",
+          syllabus: "./assets/syllabi/S20/CMSC389W_S20.pdf",
+          website: null,
+        },
+        {
+          id: 86,
+          department: "MATH",
+          number: "299M",
+          title: "Visualization in Mathematica",
+          facilitators: [
+            { name: "Devan Tamot", email: "tamotd@cs.umd.edu" },
+            { name: "Dan Zou", email: "danzou12@cs.umd.edu" },
+            { name: "Vlad Dobrin", email: "vdobrin@umd.edu" }
+          ],
+          advisor: "Jason Filippou",
+          credits: 1,
+          description:
+          "This course is designed to teach how to use the most common and useful features of Wolfram Mathatica, an extremely powerful technical computing system that can be used to model a wide range of problems. Students will also learn important techniques and styles that will equip them with a profound mastery of Mathematica. Plotting functions in several ways, making models that can be manipulated in real time by the user, and efficiently computing solutions to complicated equations are among the things we'll cover. We'll use these skills to model various structures in math, computer science and physics, and for the final project every student will pick something relevant to their major (or interest otherwise) to model, whether that be in physics, math, engineering, economics, or anything else mathematical in nature.",
+          syllabus: "./assets/syllabi/S20/MATH299M_S20.pdf",
+          website: null,
+        },
+        {
+          id: 87,
+          department: "CMSC",
+          number: "389B",
+          title: "Theory of Programming Languages",
+          facilitators: [
+            { name: "Ian Sweet", email: "ins@cs.umd.edu" }
+          ],
+          advisor: "Michael Hicks",
+          credits: 1,
+          description:
+          "This course provides an introduction to type systems and the basic theory of programming languages. Part I of the course will focus on the Simply Typed Lambda Calculus (STLC), and then extend that language with features such as algebraic data types (ADTs), references, and exceptions. For each extension, we will revise a proof of type safety. Part II of the course will focus on 'fancy' type extensions to the STLC including parametric polymorphism, recursive types, and subtyping.",
+          syllabus: "./assets/syllabi/S20/CMSC389B_S20.pdf",
+          website: null,
+        },
+        {
+          id: 88,
+          department: "CMSC",
+          number: "89D",
+          title: "Ethics of Artifical Intelligence and Machine Learning",
+          facilitators: [
+            { name: "Anthony Ostuni", email: "aostuni@umd.edu" }
+          ],
+          advisor: "John Dickerson",
+          credits: 1,
+          description:
+          "This discussion-based course will provide an introduction to the ethical issues related to artificial intelligence and machine learning. The first half of the semester will focus on concerns existing in the present day, such as bias and transparency. During the semester's second half, we will cover topics that will be increasingly important going forward, from consciousness to the future of labor.",
+          syllabus: "https://github.com/aostuni/Ethics-of-AI-ML",
+          website: "https://github.com/aostuni/Ethics-of-AI-ML",
+        },
+        {
+          id: 89,
+          department: "CMSC",
+          number: "389O",
+          title: "The Coding Interview",
+          facilitators: [
+            { name: "Kusal De Alwis", email: "kdealwis@umd.edu" },
+            { name: "Andrew Witten", email: "awitten1@terpmail.umd.edu" },
+            { name: "Shubhankar Sachdev", email: "ssachdev@umd.edu" },
+            { name: "Dhruv Mehta", email: "dhruvnm@umd.edu" },
+            { name: "Omkar Konaraddi", email: "okonarad@umd.edu" },
+            { name: "Lauren Kosub", email: "lkosub@umd.edu" }
+          ],
+          advisor: "Tom Goldstein",
+          credits: 1,
+          description:
+          "This course provides a comprehensive, practical introduction to technical interviews. The course will start with basic topics such as Big O and String Manipulation. We will then move into more complex topics such as Graphs and Dynamic Programming. Most of the classes will be in-class interviews to give real interview practice.",
+          syllabus: "./assets/syllabi/S20/CMSC389O_S20.pdf",
+          website: null,
+        },
+        {
+          id: 89,
+          department: "MATH",
+          number: "299F",
+          title: "Philosophy & the Foundations of Mathematics",
+          facilitators: [
+            { name: "Conner Gorman", email: "cgorman@umd.edu" }
+          ],
+          advisor: "Roohollah Ebrahimian",
+          credits: 1,
+          description:
+          "The goal of this course is two-fold. In the first half of the course, we will introduce students to three common philosophical treatments of mathematics: Logicism, Formalism, and Intuitionism. In the latter half, we will cover the efforts of mathematicians and philosophers throughout the late 19th and early 20th century to reduce mathematics to logic. In many ways, this effort culminated in 1931 with Kurt Gödel’s Incompleteness Theorems. Our course will conclude with the philosophical and mathematical implications of the Incompleteness Theorems. Some familiarity with higher-level math and comfort with elementary logic is strongly recommended.",
+          syllabus: "./assets/syllabi/S20/MATH299F_S20.pdf",
+          website: null,
+        },
+        {
+          id: 90,
+          department: "MATH",
+          number: "299T",
+          title: "Poker Theory and Analytics",
+          facilitators: [
+            { name: "John Horine", email: "jhorine@outlook.com" }
+          ],
+          advisor: "Wiseley Wong",
+          credits: 1,
+          description:
+          "The purpose of this course is to apply probability and statistical models to optimize strategy in the game of No Limit Texas Hold’em. First we will introduce the basics of poker and fundamental strategies and explore the statistical foundations that govern the game. Then we will expand upon this initial framework and study concepts such as range analysis, exploitative playstyles, and frequencies as they relate to optimal strategy. Finally we will conclude the course with a discussion and application of tournament play.",
+          syllabus: null,
+          website: null,
+        },
+        {
+          id: 91,
+          department: "MATH",
+          number: "299C",
+          title: "Mathematics & Classical Music",
+          facilitators: [
+            { name: "Noah Whiteman", email: "whiteman@terpmail.umd.edu" },
+            { name: "Jeffrey Wack", email: "jwack@terpmail.umd.edu" }
+          ],
+          advisor: "Niranjan Ramachandran",
+          credits: 1,
+          description:
+          "The aim of this course is to explore the historical discoveries in mathematics that have in luenced Western classical music, as well as musical expressions of speci ic mathematical concepts. This course is not meant to be a rigorous introduction to music theory or mathematics; rather, it is focused on introducing students to classical music through mathematical ideas that appear in it. Students will also have an opportunity to explore mathematics through music in the form of a creative project.",
+          syllabus: "./assets/syllabi/S20/MATH299C_S20.pdf",
+          website: null,
+        },
 
 
-        ]
-    }
+      ],
+    },
+
   }
 };
