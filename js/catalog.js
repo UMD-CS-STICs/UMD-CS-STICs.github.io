@@ -1894,6 +1894,23 @@ var CLASSES = {
           syllabus: "./assets/syllabi/S20/IDEA258D_S20.pdf",
           website: null,
         },
+        {
+          id: 94,
+          department: "IDEA",
+          number: "258C",
+          title: "Designing Ethical Campaigns",
+          facilitators: [
+            { name: "Andrew String", email: "​apstring@umd.edu​" },
+            { name: "Alexis Amos", email: "aamos1@umd.edu" }
+          ],
+          advisor: "Mira Azarm",
+          credits: 1,
+          description:
+          "This course will introduce students and immerse students in the methods of designing an ethical campaign. Through our campus, local, state, and national government, we have seen how dirty campaigns can get. Throughout the semester students will be able to apply their learnings to design a campaign that can make tangible differences, but stay true to their core values. We will explore the different functions and methods it takes to run an ethical campaign. Our assignments and activities will allow for students to have hands on engagement with stakeholders at UMD to create and test their own ethical campaign.",
+          syllabus: null,
+          website: "https://designingethicalcampaigns.splashthat.com/",
+        },
+
 
 
       ],
