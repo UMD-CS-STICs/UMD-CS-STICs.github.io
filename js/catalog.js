@@ -1648,7 +1648,7 @@ var CLASSES = {
       ],
     },
     'spring 2020': {
-      departments: ["CMSC", "MATH", "BSCI", "AASP", "IDEA"],
+      departments: ["CMSC", "MATH", "BSCI", "AASP", "IDEA", "BMGT"],
       classes: [
         {
           id: 80,
@@ -1860,6 +1860,38 @@ var CLASSES = {
           description:
           "The aim of this course is to explore the historical discoveries in mathematics that have in luenced Western classical music, as well as musical expressions of speci ic mathematical concepts. This course is not meant to be a rigorous introduction to music theory or mathematics; rather, it is focused on introducing students to classical music through mathematical ideas that appear in it. Students will also have an opportunity to explore mathematics through music in the form of a creative project.",
           syllabus: "./assets/syllabi/S20/MATH299C_S20.pdf",
+          website: null,
+        },
+        {
+          id: 92,
+          department: "BMGT",
+          number: "299B",
+          title: "Applied Cloud Computing in Information Systems",
+          facilitators: [
+            { name: "Graham Schuckman", email: "gschuckm@terpmail.umd.edu" },
+            { name: "Nicholas Summers", email: "nsummer2@terpmail.umd.edu" }
+          ],
+          advisor: "Louiqa Raschid",
+          credits: 1,
+          description:
+          "Cloud computing has become ubiquitous over the last few years. The demand for big data platforms and flexible computational resources has made it important for organizations to build upon cloud computing solutions. This course will explore the fundamentals of cloud computing, and review its adoption within an organizational setting. We will cover topics such as data storage, cloud security, data availability and more.",
+          syllabus: "./assets/syllabi/S20/BMGT299B_S20.pdf",
+          website: null,
+        },
+        {
+          id: 93,
+          department: "IDEA",
+          number: "258D",
+          title: "Explorations in Design",
+          facilitators: [
+            { name: "Clark Mitchell", email: "clarkmitchell@me.com" },
+            { name: "Cat Chiang", email: "catchiang02@gmail.com" }
+          ],
+          advisor: "Erica Estrada-Liou",
+          credits: 1,
+          description:
+          "“Explorations in Design” gives students the opportunity to apply their unique backgrounds to the realm of design. Students will engage in hands-on learning with real world applications to incorporate design thinking into everyday life. We will explore how good and bad design plays a role in the mundane, from the way we order coffee to the logos you see to the signs that help you navigate (or get lost) on the metro.",
+          syllabus: "./assets/syllabi/S20/IDEA258D_S20.pdf",
           website: null,
         },
 
