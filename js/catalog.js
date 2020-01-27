@@ -1928,7 +1928,7 @@ var CLASSES = {
         {
           id: 96,
           department: "BCHM",
-          number: "11Y",
+          number: "111Y",
           title: "BrewMD",
           facilitators: [
             { name: "Gilad Hampel", email: "​ghampel@terpmail.umd.edu​" },
@@ -1938,7 +1938,7 @@ var CLASSES = {
           credits: 1,
           description:
           "This course is for those interested in learning how to brew. We will discuss the theory behind brewing alcohol, the mechanisms that govern the process of yeast fermentation, and the proper techniques for applying that knowledge to produce alcoholic/fermented beverages in a safe, sterile, and efficient manner. This course will delve into the history of brewing on the planet, which several historians have stated is the reason for the development of stationary cultures. We will delve into the evolution of the modern brewing industry, from home breweries to multinational brewing corporations. This course will look into the complex distribution networkrequired to market the brewed products globally. Ultimately we will apply the knowledge taught in this class to brew mead, beer, and cider in a safe sterile setting.",
-          syllabus: "./assets/syllabi/S20/BCHM11Y_S20.pdf",
+          syllabus: "./assets/syllabi/S20/BCHM111Y_S20.pdf",
           website: null,
         },
 
