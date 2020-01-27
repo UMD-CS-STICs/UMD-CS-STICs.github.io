@@ -1648,7 +1648,7 @@ var CLASSES = {
       ],
     },
     'spring 2020': {
-      departments: ["CMSC", "MATH", "BSCI", "AASP", "IDEA", "BMGT"],
+      departments: ["CMSC", "MATH", "BSCI", "AASP", "IDEA", "BMGT","BCHM"],
       classes: [
         {
           id: 80,
@@ -1910,6 +1910,38 @@ var CLASSES = {
           syllabus: null,
           website: "https://designingethicalcampaigns.splashthat.com/",
         },
+        {
+          id: 95,
+          department: "BSCI",
+          number: "238B",
+          title: "Astrobiology: Abiogenesis (the Origin of Life) and Early Life",
+          facilitators: [
+            { name: "Noah Katz", email: "​nkatz19@gmail.com​" },
+          ],
+          advisor: "Charles Delwiche",
+          credits: 1,
+          description:
+          "Students are provided with an immersive and wide spanning introduction to the topic of abiogenesis (the origin of life) and the background necessary to understand how it could have happened. It is intended to be taken by students with a strong background in the natural sciences.",
+          syllabus: null,
+          website: null,
+        },
+        {
+          id: 96,
+          department: "BCHM",
+          number: "11Y",
+          title: "BrewMD",
+          facilitators: [
+            { name: "Gilad Hampel", email: "​ghampel@terpmail.umd.edu​" },
+            { name: "William Ryba", email: "wryba@terpmail.umd.edu" }
+          ],
+          advisor: "Lee Friedman",
+          credits: 1,
+          description:
+          "This course is for those interested in learning how to brew. We will discuss the theory behind brewing alcohol, the mechanisms that govern the process of yeast fermentation, and the proper techniques for applying that knowledge to produce alcoholic/fermented beverages in a safe, sterile, and efficient manner. This course will delve into the history of brewing on the planet, which several historians have stated is the reason for the development of stationary cultures. We will delve into the evolution of the modern brewing industry, from home breweries to multinational brewing corporations. This course will look into the complex distribution networkrequired to market the brewed products globally. Ultimately we will apply the knowledge taught in this class to brew mead, beer, and cider in a safe sterile setting.",
+          syllabus: "./assets/syllabi/S20/BCHM11Y_S20.pdf",
+          website: null,
+        },
+
 
 
 
