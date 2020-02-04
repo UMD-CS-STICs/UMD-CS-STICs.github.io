@@ -1922,7 +1922,7 @@ var CLASSES = {
           credits: 1,
           description:
           "Students are provided with an immersive and wide spanning introduction to the topic of abiogenesis (the origin of life) and the background necessary to understand how it could have happened. It is intended to be taken by students with a strong background in the natural sciences.",
-          syllabus: null,
+          syllabus: "./assets/syllabi/S20/BSCI238B_S20.pdf",
           website: null,
         },
         {
