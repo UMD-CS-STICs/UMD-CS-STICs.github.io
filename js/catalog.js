@@ -1871,7 +1871,7 @@ var CLASSES = {
             { name: "Graham Schuckman", email: "gschuckm@terpmail.umd.edu" },
             { name: "Nicholas Summers", email: "nsummer2@terpmail.umd.edu" }
           ],
-          advisor: "Louiqa Raschid",
+          advisor: "Louiqa Raschid, Gorkem Ozer",
           credits: 1,
           description:
           "Cloud computing has become ubiquitous over the last few years. The demand for big data platforms and flexible computational resources has made it important for organizations to build upon cloud computing solutions. This course will explore the fundamentals of cloud computing, and review its adoption within an organizational setting. We will cover topics such as data storage, cloud security, data availability and more.",
