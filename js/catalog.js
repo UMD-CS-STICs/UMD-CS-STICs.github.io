@@ -188,9 +188,9 @@ function createDiv(cl) {
 }
 
 // TODO add semesters here
-var SEMESTERS = ['spring 2017', 'fall 2017', 'spring 2018', 'fall 2018', 'spring 2019', 'fall 2019', 'spring 2020'];
+var SEMESTERS = ['spring 2017', 'fall 2017', 'spring 2018', 'fall 2018', 'spring 2019', 'fall 2019', 'spring 2020', 'fall 2020'];
 
-var CURRENT_SEMESTER = "spring 2020";
+var CURRENT_SEMESTER = "fall 2020";
 
 // TODO add classes here
 var CLASSES = {
@@ -1941,12 +1941,176 @@ var CLASSES = {
           syllabus: "./assets/syllabi/S20/BCHM111Y_S20.pdf",
           website: null,
         },
-
-
+      ],
+    },
+    'fall 2020': {
+      departments: ["CMSC", "MATH", "BMGT"],
+      classes: [
+        {
+          id: 97,
+          department: "BMGT",
+          number: "299B",
+          title: "Applied Cloud Computing in Information Systems",
+          facilitators: [
+            { name: "Graham Schuckman", email: "gschuckm@terpmail.umd.edu" },
+            { name: "Nicholas Summers", email: "nsummer2@terpmail.umd.edu" }
+          ],
+          advisor: "Louiqa Raschid, Gorkem Ozer",
+          credits: 1,
+          description:
+            "Cloud computing has become ubiquitous over the last few years. The demand for big data platforms and flexible computational resources has made it important for organizations to build upon cloud computing solutions. This course will explore the fundamentals of cloud computing, and review its adoption within an organizational setting. We will cover topics such as data storage, cloud security, data availability and more.",
+          syllabus: "./assets/syllabi/F20/BMGT299B_F20.pdf",
+          website: null,
+        },
+        {
+          id: 98,
+          department: "CMSC",
+          number: "388J",
+          title: "Building Secure Web Applications with Python and Flask",
+          facilitators: [
+            { name: "Yashas Lokesh", email: "yashloke@umd.edu" },
+            { name: "Kenton Wong", email: "kdubbs0@umd.edu" }
+          ],
+          advisor: "Michael Marsh",
+          credits: 1,
+          description:
+            "This course is an introduction to building secure, full-stack web applications with Python and Flask. We'll start with Python and Flask and transition to web application security, where we'll look at different types of security vulnerabilities and best practices to patch up these vulnerabilities in your own apps. Then, we'll go to building your own API and securely authenticating with it, and finish by showing you how you can deploy your web app!",
+          syllabus: "./assets/syllabi/F20/CMSC388J_F20.pdf",
+          website: null,
+        },
+        {
+          id: 99,
+          department: "CMSC",
+          number: "389A",
+          title: "Law and Computer Science",
+          facilitators: [
+            { name: "Yaelle Goldschlag", email: "ygoldsch@umd.edu" }
+          ],
+          advisor: "Neil Spring",
+          credits: 1,
+          description:
+            "Technology touches every aspect of our lives, accomplishing old tasks in new ways as well as creating entirely new industries. The legal system is entering a period of profound transformation brought on by these new technologies. The course will engage with two complementary questions: How is digital technology being deployed in key areas of legal work such as contracting and dispute resolution? How should current legal doctrine be applied to new technologies? The structure of the course involves weekly readings and discussions as well as four essays throughout the course and a semester-long project building a service on top of a smart contract. The readings and essays will enable students to gain a deep understanding and think critically about current issues at the intersection of law and computer science. The project will encourage students to think creatively about societal needs and their legal and technical solutions, and to gain experience with smart contracts as well as thinking concurrently about technical challenges and legal considerations.",
+          syllabus: "./assets/syllabi/F20/CMSC389A_F20.pdf",
+          website: null,
+        },
+        {
+          id: 100,
+          department: "CMSC",
+          number: "389B",
+          title: "A Tour of Programming Languages",
+          facilitators: [
+            { name: "Justin Goodman", email: "jugoodma@terpmail.umd.edu" },
+            { name: "Clifford Bakalian", email: "cliffbakalian@gmail.com" }
+          ],
+          advisor: "David Van Horn",
+          credits: 1,
+          description:
+            "We will examine various programming languages to gain a better understanding of PL design. Over the semester, students will complete a handful of programming projects to gain experience in uncommon programming paradigms.",
+          syllabus: "./assets/syllabi/F20/CMSC389B_F20.pdf",
+          website: null,
+        },
+        {
+          id: 101,
+          department: "CMSC",
+          number: "389E",
+          title: "Digital Logic Design Through Minecraft",
+          facilitators: [
+            { name: "Akilesh Praveen", email: "apraveen@umd.edu" },
+            { name: "Ashwath Krishnan", email: "abkrish9@umd.edu" }
+          ],
+          advisor: "Jason Filippou",
+          credits: 1,
+          description:
+            "In this class, we will explore the theory and applications of combinational and sequential circuits. All projects will be done using Minecraft’s Redstone. The course will cover basic gates to more advanced circuits including memory gates and large sequential circuits. The first half of the class will focus on com- binational logic gates, and the second half will introduce time-based sequential circuits. By the end of the class you should be able to complete the final project, which will be assigned for the last three classes.",
+          syllabus: "./assets/syllabi/F20/CMSC389E_F20.pdf",
+          website: null,
+        },
+        {
+          id: 102,
+          department: "CMSC",
+          number: "389O",
+          title: "The Coding Interview",
+          facilitators: [
+            { name: "Dhruv Mehta", email: "dhruvnm@umd.edu" },
+            { name: "Naveen Raman", email: "nav.j.raman@gmail.com" }
+          ],
+          advisor: "Tom Goldstein",
+          credits: 1,
+          description:
+            "This course provides a comprehensive, practical introduction to technical interviews. The course will start with basic topics such as Big O and String Manipulation. We will then move into more complex topics such as Graphs and Dynamic Programming. Most of the classes will be in-class interviews to give real interview practice.",
+          syllabus: "./assets/syllabi/F20/CMSC389O_F20.pdf",
+          website: null,
+        },
+        {
+          id: 103,
+          department: "CMSC",
+          number: "389P",
+          title: "Mastering the PM Interview",
+          facilitators: [
+            { name: "Srivarshini Parameswaren", email: "srivparam17@gmail.com" },
+            { name: "Desiree Abrokwa", email: "dabrokw1@umd.edu" }
+          ],
+          advisor: "Michelle Mazurek",
+          credits: 1,
+          description:
+            "Our course is geared towards getting students ready for PM interviews in the technology industry. The class will be a combination of lectures and in-class activities that will provide hands-on practice for PM roles. We will begin with interview questions involving behavioral and technical concepts, and transition to more complex PM-specific topics including product design, analytical, and case questions.",
+          syllabus: "./assets/syllabi/F20/CMSC389P_F20.pdf",
+          website: null,
+        },
+        {
+          id: 104,
+          department: "CMSC",
+          number: "389V",
+          title: "Ethics of Artificial Intelligence and Machine Learning",
+          facilitators: [
+            { name: "Anthony Ostuni", email: "anthonyjostuni@gmail.com" }
+          ],
+          advisor: "John Dickerson",
+          credits: 1,
+          description:
+            "This discussion-based course will provide an introduction to the ethical issues related to artificial intelligence and machine learning. The first half of the semester will focus on concerns existing in the present day, such as bias and transparency. During the semester's second half, we will cover topics that will be increasingly important going forward, from consciousness to the future of labor.",
+          syllabus: "./assets/syllabi/F20/CMSC389V_F20.pdf",
+          website: null,
+        },
+        {
+          id: 105,
+          department: "CMSC",
+          number: "389W",
+          title: "Visualization in Mathematica",
+          facilitators: [
+            { name: "Devan Tamot", email: "tamotd@cs.umd.edu" },
+            { name: "Vlad Dobrin", email: "vdobrin@cs.umd.edu" },
+            { name: "Dan Zou", email: "danzou12@cs.umd.edu" }
+          ],
+          advisor: "Jason Filippou",
+          credits: 1,
+          description:
+            "This course is designed to teach how to use the most common and useful features of Wolfram Mathatica, an extremely powerful technical computing system that can be used to model a wide range of problems. Students will also learn important techniques and styles that will equip them with a profound mastery of Mathematica. Plotting functions in several ways, making models that can be manipulated in real time by the user, and efficiently computing solutions to complicated equations are among the things we'll cover. We'll use these skills to model various structures in math, computer science and physics, and for the final project every student will pick something relevant to their major (or interest otherwise) to model, whether that be in physics, math, engineering, economics, or anything else mathematical in nature.",
+          syllabus: "./assets/syllabi/F20/CMSC389W_MATH299M_F20.pdf",
+          website: null,
+        },
+        {
+          id: 106,
+          department: "MATH",
+          number: "299M",
+          title: "Visualization in Mathematica",
+          facilitators: [
+            { name: "Devan Tamot", email: "tamotd@cs.umd.edu" },
+            { name: "Vlad Dobrin", email: "vdobrin@cs.umd.edu" },
+            { name: "Dan Zou", email: "danzou12@cs.umd.edu" }
+          ],
+          advisor: "Jason Filippou",
+          credits: 1,
+          description:
+            "This course is designed to teach how to use the most common and useful features of Wolfram Mathatica, an extremely powerful technical computing system that can be used to model a wide range of problems. Students will also learn important techniques and styles that will equip them with a profound mastery of Mathematica. Plotting functions in several ways, making models that can be manipulated in real time by the user, and efficiently computing solutions to complicated equations are among the things we'll cover. We'll use these skills to model various structures in math, computer science and physics, and for the final project every student will pick something relevant to their major (or interest otherwise) to model, whether that be in physics, math, engineering, economics, or anything else mathematical in nature.",
+          syllabus: "./assets/syllabi/F20/CMSC389W_MATH299M_F20.pdf",
+          website: null,
+        },
 
 
       ],
     },
+
 
   }
 };
