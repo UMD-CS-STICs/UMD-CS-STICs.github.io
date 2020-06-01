@@ -1858,7 +1858,7 @@ var CLASSES = {
           advisor: "Niranjan Ramachandran",
           credits: 1,
           description:
-          "The aim of this course is to explore the historical discoveries in mathematics that have in luenced Western classical music, as well as musical expressions of speci ic mathematical concepts. This course is not meant to be a rigorous introduction to music theory or mathematics; rather, it is focused on introducing students to classical music through mathematical ideas that appear in it. Students will also have an opportunity to explore mathematics through music in the form of a creative project.",
+          "The aim of this course is to explore the historical discoveries in mathematics that have influenced Western classical music, as well as musical expressions of specific mathematical concepts. This course is not meant to be a rigorous introduction to music theory or mathematics; rather, it is focused on introducing students to classical music through mathematical ideas that appear in it. Students will also have an opportunity to explore mathematics through music in the form of a creative project.",
           syllabus: "./assets/syllabi/S20/MATH299C_S20.pdf",
           website: null,
         },
