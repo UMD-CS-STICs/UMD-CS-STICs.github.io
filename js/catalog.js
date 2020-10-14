@@ -2106,6 +2106,38 @@ var CLASSES = {
           syllabus: "./assets/syllabi/F20/CMSC389W_MATH299M_F20.pdf",
           website: null,
         },
+        {
+          id: 107,
+          department: "IDEA",
+          number: "258C",
+          title: "Special Topics in Innovation; Designing Ethical Campaigns",
+          facilitators: [
+            { name: "Caroline Marr", email: "" },
+            { name: "Michael Mareno", email: "" }
+          ],
+          advisor: "Mira Azarm",
+          credits: 1,
+          description:
+            "This course will introduce students to and immerse them in the methods running an ethical campaign. Through our campus, local, state, national government, we have seen how dirty politics can get. Throughout the semester students will be able to apply their learnings to design a campaign that can make tangible differences, but stay true to their core values. We will explore the different functions and methods it takes to run an ethical campaign. Our assignments and activities will allow for students to have hands-on engagement with stakeholders at UMD to create and test their own ethical campaign.",
+          syllabus: null,
+          website: null,
+        },
+        {
+          id: 108,
+          department: "IDEA",
+          number: "258D",
+          title: "Special Topics in Innovation; Explorations in Design",
+          facilitators: [
+            { name: "Ilana Pelzman-Kern", email: "" },
+            { name: "Paloma Zagarra", email: "" }
+          ],
+          advisor: "Brooke Smith",
+          credits: 1,
+          description:
+            "'Explorations in Design' gives students the opportunity to apply their unique backgrounds to the realm of design. Students will engage in hands-on learning with real world applications to incorporate design thinking into everyday life. By exploring each stage of the design process (from ideating to prototyping), students will develop a final project to pitch at the end of the semester.",
+          syllabus: null,
+          website: null,
+        },
 
 
       ],
