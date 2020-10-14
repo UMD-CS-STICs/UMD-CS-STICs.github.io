@@ -1944,7 +1944,7 @@ var CLASSES = {
       ],
     },
     'fall 2020': {
-      departments: ["CMSC", "MATH", "BMGT"],
+      departments: ["CMSC", "MATH", "BMGT", "IDEA"],
       classes: [
         {
           id: 97,
