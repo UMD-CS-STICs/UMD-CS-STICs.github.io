@@ -6,10 +6,14 @@ def main():
     ### FORMAT OF INPUT:
     # CSV FORMAT: (ensure columns are named the same, verbatim)
     # | number | advisor | facilitators | description |
+
     # AS SUCH, YOUR CSV MUST HAVE A HEADER ROW WITH THE FOLLOWING:
     # number,advisor,facilitators,description
 
-    # EXAMPLE CSV INPUT ROW
+    # EXAMPLE CSV INPUT ROW FOR CMSC389E
+    # CMSC389E,Roger Eastman,"Akilesh Praveen,Dhanvee Ivaturi","A great class about Minecraft and Computer Science"
+
+    # IMPORTANT: Make sure you update 'counter' below to the most recent ID not used in catalog.js
 
     # get STIC data file
     courses_data = "/Users/aki/Documents/UMD/STICS/2021stics.csv"
@@ -55,7 +59,8 @@ def remove_quotes(input):
         '"website"':'website',
         '"title"':"title",
         '"department"':'department',
-        '"credits"':'credits'
+        '"credits"':'credits',
+        '"null"':'null'
     }
 
     for k,v in to_change.items():

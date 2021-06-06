@@ -2146,6 +2146,26 @@ var CLASSES = {
       departments: ["MATH", "CMSC", "IDEA"],
       classes: [
         {
+          number: "389E",
+          advisor: "Roger Eastman",
+          facilitators: [
+            {
+              name: "Akilesh Praveen",
+              email: ""
+            },
+            {
+              name: " Dhanvee Ivaturi",
+              email: ""
+            }
+          ],
+          description: "Learn and apply key concepts from digital logic, discrete math, and computer systems while playing the hit sandbox videogame Minecraft! Students will create an ALU, ROM, RAM, Clocks, and more as they build out the final project: a fully functional 3-bit computer in Minecraft.",
+          id: 123,
+          title: "Digital Logic Design Through Minecraft",
+          website: null,
+          department: "CMSC",
+          credits: 1
+        },
+        {
           number: "299J",
           advisor: "Wiseley Wong",
           facilitators: [
@@ -2160,8 +2180,8 @@ var CLASSES = {
           ],
           description: "Adjacency/Laplacian matrices of graphs, eigenvalues of these matrices, and related\ntheory. Applications to Kirchhoff\u2019s Matrix Theorem and the Sensitivity Conjecture.",
           id: 109,
-          title: "",
-          website: "null",
+          title: "Spectral Graph Theory and Applications",
+          website: null,
           department: "MATH",
           credits: 1
         },
@@ -2212,7 +2232,7 @@ var CLASSES = {
           ],
           description: "This course provides a comprehensive, practical introduction to technical interviews. The course will start with basic topics such as Big O and String Manipulation. We will then move into more complex topics such as Graphs and Dynamic Programming. Most of the classes will be in-class interviews to give real interview practice.",
           id: 110,
-          title: "",
+          title: "The Coding Interview",
           website: "null",
           department: "CMSC",
           credits: 1
@@ -2236,8 +2256,8 @@ var CLASSES = {
           ],
           description: "This course is an introduction to building secure, full-stack web applications with Python and Flask. We'll start with Python and Flask and transition to web application security, where we'll look at different types of security vulnerabilities and best practices to patch up these vulnerabilities in your own apps. Then, we'll go to building your own API and securely authenticating with it, and finish by showing you how you can deploy your web app!",
           id: 111,
-          title: "",
-          website: "null",
+          title: "Building Secure Web Applications with Python and Flask",
+          website: null,
           department: "CMSC",
           credits: 1
         },
@@ -2256,8 +2276,8 @@ var CLASSES = {
           ],
           description: "In this course, students are given a scoped experience of a Software Engineering industry job and relevant tools/practices to accelerate acclimation to a future SWE Intern or Full-Time role. Topics/Skills covered include: Git, Code Reviews, AWS basics, Design Docs, unit testing, virtual machines, etc. Students will contribute to a complex code base to simulate designing, implementing, and testing new features in a professional setting.",
           id: 112,
-          title: "",
-          website: "null",
+          title: "What to do AFTER Landing an SWE Job",
+          website: null,
           department: "CMSC",
           credits: 1
         },
@@ -2272,8 +2292,8 @@ var CLASSES = {
           ],
           description: "\u201cUser Experience.\u201d What does that mean? It was a term coined by cognitive psychologist and designer Don Norman in the 1990s on the cusp of the new digital era; however, the field in practice has existed long before that. Unfortunately, due to its over use and misuse, the pure concept of UX has become lost in the weeds and details of all of its components and methods. In this course, we will take a deep look at the true meaning of UX as simply \u201ca user\u2019s experience\u201d and what that means for you as both a designer and a user. You will learn about core UX principles and methodologies from both an academic and practical standpoint and be challenged to apply what you learn in classroom workshops and assignments. Finally, you will be asked to think outside the bounds of technology to find innovative solutions to real world design problems.",
           id: 113,
-          title: "",
-          website: "null",
+          title: "Introduction to UI/UX Design",
+          website: null,
           department: "IDEA",
           credits: 1
         },
@@ -2288,8 +2308,8 @@ var CLASSES = {
           ],
           description: "This research methodology course is designed for students who are interested in gaining research experience and learning how common bench techniques work on the chemical level. We will also cover how to troubleshoot experiments when these techniques don't work. This is a blended learning course, with about 60% of lectures being online and 40% being in person. Oh, and you can create memes for extra credit too.",
           id: 114,
-          title: "",
-          website: "null",
+          title: "A Primer on Research Kits in the College of Life Sciences",
+          website: null,
           department: "BSCI",
           credits: 1
         },
@@ -2304,8 +2324,8 @@ var CLASSES = {
           ],
           description: "This course is an introduction to differential geometry in physics using the language of differential forms. We will start with differential forms on R^n, seen through the lens of electrodynamics and culminating in the statement of maxwell\u2019s equations: d\u200b\u22c6dA=0. Then, we will develop classical mechanics on manifolds using symplectic geometry. Finally, we will discuss symmetry via group actions on manifolds, and prove Noether\u2019s theorem. This course will emphasize intuition, and the abstraction of that intuition into mathematical formalism.",
           id: 115,
-          title: "",
-          website: "null",
+          title: "Geometry in Physics",
+          website: null,
           department: "MATH",
           credits: 1
         },
@@ -2324,8 +2344,8 @@ var CLASSES = {
           ],
           description: "Have you ever wondered how to strategically contribute to a cause you care about and how to convince others to care as well? Throughout the semester students will be able to apply their knowledge to designing a campaign that can make tangible differences, but stay true to their core values. We will explore various scenarios and hold discussions on ethics to help you better understand the different components of running an ethical campaign. Our assignments and activities will allow for studentsto have hands-on engagement with different target audiences at UMD to create and test their own ethical campaigns.",
           id: 116,
-          title: "",
-          website: "null",
+          title: "Designing Ethical Campaigns",
+          website: null,
           department: "IDEA",
           credits: 1
         },
@@ -2340,8 +2360,8 @@ var CLASSES = {
           ],
           description: "\"Introduction to Python Programming for Life Sciences\" (BSCI238F) is a Fall 2021 one-credit, student-taught course (STIC) for undergraduate life sciences students with little-to-no programming experience who are looking to start building a strong computational foundation starting with Python, while exploring how programming is used in the broader context of the life sciences, research, and healthcare. Sign up at ter.ps/pythonSTIC to receive more info/updates about this STIC course, including the syllabus.",
           id: 117,
-          title: "",
-          website: "null",
+          title: "Introduction to Python Programming for Life Sciences",
+          website: null,
           department: "BSCI",
           credits: 1
         },
@@ -2364,8 +2384,8 @@ var CLASSES = {
           ],
           description: "Version control is an essential skill for developers to learn. Git and Github have become ubiquitous tools to version control, collaborate on, and share code. In this course, we will introduce fundamental concepts of the git architecture. We will work in an agile environment with basic to advanced commands to track changes, collaborate on shared codebases, automate testing and deployment pipelines, and enhance project management workflows. ",
           id: 118,
-          title: "",
-          website: "null",
+          title: "Introduction to Git, Github and Project Management",
+          website: null,
           department: "CMSC",
           credits: 1
         },
@@ -2384,8 +2404,8 @@ var CLASSES = {
           ],
           description: "Cloud computing has become ubiquitous over the last few years. The demand for big data platforms and flexible computational resources has made it important for organizations to build upon cloud computing solutions. This course will explore the fundamentals of cloud computing through Amazon Web Services. We will cover topics such as data storage, cloud security, data availability and more.",
           id: 119,
-          title: "",
-          website: "null",
+          title: "Applied Cloud Computing in Information Systems",
+          website: null,
           department: "BMGT",
           credits: 1
         },
@@ -2400,8 +2420,8 @@ var CLASSES = {
           ],
           description: "The goal of this course is to take complex and interesting ideas in math that are usually not covered in the school curriculum, and learn to present them in simple and surprising ways to young students. Some topics that we'll discuss ways to teach are those of combinatorics, logic puzzles, infinities, and fractals. The class is for those interested in recreational math, teaching, or both. ",
           id: 120,
-          title: "",
-          website: "null",
+          title: "Teaching Math to a Young Audience",
+          website: null,
           department: "MATH",
           credits: 1
         },
@@ -2420,8 +2440,8 @@ var CLASSES = {
           ],
           description: "\"Explorations in Design\" gives students the opportunity to apply their unique backgrounds to the realm of design. Students will engage in hands-on learning with real world applications to incorporate design thinking into everyday life. By exploring each stage of the design process (from ideating to prototyping), students will develop a final project to pitch at the end of the semester.",
           id: 121,
-          title: "",
-          website: "null",
+          title: "Explorations in Design",
+          website: null,
           department: "IDEA",
           credits: 1
         },
@@ -2436,31 +2456,12 @@ var CLASSES = {
           ],
           description: "This class will explore the history computer science from the perspective of the people that built it. We will look at the achievements of each generation, and see how they shaped the ones after them. We will see the developments since antiquity all the way to today, exploring a range of topics from theoretical computing, code-cracking, the Internet, A.I, Open Source, and more. This class is intended to give you a comprehensive view of the history of Computer Science, without too much focus on any specific topic.",
           id: 122,
-          title: "",
-          website: "null",
+          title: "History of Computer Science",
+          website: null,
           department: "CMSC",
           credits: 1
         },
-        {
-          number: "389E",
-          advisor: "Roger Eastman",
-          facilitators: [
-            {
-              name: "Akilesh Praveen",
-              email: ""
-            },
-            {
-              name: " Dhanvee Ivaturi",
-              email: ""
-            }
-          ],
-          description: "Learn and apply key concepts from digital logic, discrete math, and computer systems while playing the hit sandbox videogame Minecraft! Students will create an ALU, ROM, RAM, Clocks, and more as they build out the final project: a fully functional 3-bit computer in Minecraft.",
-          id: 123,
-          title: "",
-          website: "null",
-          department: "CMSC",
-          credits: 1
-        },
+        
         
       ]
     }
