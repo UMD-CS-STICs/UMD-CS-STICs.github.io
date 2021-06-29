@@ -2240,7 +2240,7 @@ var CLASSES = {
           description: "This course provides a comprehensive, practical introduction to technical interviews. The course will start with basic topics such as Big O and String Manipulation. We will then move into more complex topics such as Graphs and Dynamic Programming. Most of the classes will be in-class interviews to give real interview practice.",
           id: 110,
           title: "The Coding Interview",
-          website: "null",
+          website: null,
           department: "CMSC",
           credits: 1
         },
