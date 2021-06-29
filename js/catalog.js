@@ -2306,7 +2306,7 @@ var CLASSES = {
         },
         {
           number: "238D",
-          advisor: "Dr. Jonathan Dinman",
+          advisor: "Jonathan Dinman",
           facilitators: [
             {
               name: "Kevin Tu",
@@ -2358,7 +2358,7 @@ var CLASSES = {
         },
         {
           number: "238F",
-          advisor: "Professor Daniel Butts",
+          advisor: "Daniel Butts",
           facilitators: [
             {
               name: "Ethan Cheng",
@@ -2374,7 +2374,7 @@ var CLASSES = {
         },
         {
           number: "389T",
-          advisor: "Dr. Anwar Mamat",
+          advisor: "Anwar Mamat",
           facilitators: [
             {
               name: "Sagar Saxena",
@@ -2454,7 +2454,7 @@ var CLASSES = {
         },
         {
           number: "388Y",
-          advisor: "Dr. Michael Hicks",
+          advisor: "Michael Hicks",
           facilitators: [
             {
               name: "Guido Ambasz",
@@ -2470,7 +2470,7 @@ var CLASSES = {
         },
         {
           number: "388Z",
-          advisor: "Dr. Michael Hicks",
+          advisor: "Michael Hicks",
           facilitators: [
             {
               name: "Dongze He",
