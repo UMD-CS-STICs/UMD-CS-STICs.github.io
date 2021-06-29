@@ -2142,6 +2142,13 @@ var CLASSES = {
 
       ],
     },
+     
+    // -------------------------------------------------------------
+    // BEGIN
+    // FALL 2021 
+    // CATALOG
+    // -------------------------------------------------------------
+      
     'fall 2021': {
       departments: ["MATH", "CMSC", "IDEA"],
       classes: [
@@ -2461,7 +2468,42 @@ var CLASSES = {
           department: "CMSC",
           credits: 1
         },
-        
+        {
+          number: "388Z",
+          advisor: "Dr. Michael Hicks",
+          facilitators: [
+            {
+              name: "Dongze He",
+              email: ""
+            }
+          ],
+          description: "The Rust programming language eliminates serious classes of bugs compared to unsafe languages, such as C, while retaining high performance. However, the Rust language can be challenging to learn. In this course, students will learn how to program effectively in Rust. The course includes a project, in which students will work in small groups on projects of their choice.",
+          id: 123,
+          title: "Programming in Rust",
+          website: null,
+          department: "CMSC",
+          credits: 1
+        },
+        {
+          number: "388U",
+          advisor: "Dave Levin",
+          facilitators: [
+            {
+              name: "Alden Schmidt",
+              email: ""
+            },
+            {
+              name: "John (Vanya) Gorbachev",
+              email: ""
+            }
+          ],
+          description: "This hands-on course provides an introduction to ethical hacking that begins with a discussion on the ethics behind security research and progresses to topics including penetration testing, forensics, cryptography, reverse engineering, and exploitation. This course is also meant to introduce students to Capture-the-Flag (CTF) style cybersecurity challenges, encourages participation in the Cybersecurity Club at UMD, and prepares for CMSC414.",
+          id: 124,
+          title: "Introduction to Ethical Hacking (Hack the Class)",
+          website: null,
+          department: "CMSC",
+          credits: 1
+        },
         
       ]
     }
