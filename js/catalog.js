@@ -2150,7 +2150,7 @@ var CLASSES = {
     // -------------------------------------------------------------
       
     'fall 2021': {
-      departments: ["MATH", "CMSC", "IDEA"],
+      departments: ["MATH", "CMSC", "IDEA", "INST"],
       classes: [
         {
           number: "389E",
@@ -2505,7 +2505,7 @@ var CLASSES = {
           credits: 1
         },
 	{
-          number: "INST208L",
+          number: "208L",
           advisor: "Donal Heidenblad",
           facilitators: [
             {
@@ -2517,7 +2517,7 @@ var CLASSES = {
           id: 125,
           title: "Linux Command Line Tools",
           website: null,
-          department: "CMSC",
+          department: "INST",
           credits: 1
         },
       ]
