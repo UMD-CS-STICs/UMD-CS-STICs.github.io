@@ -2513,7 +2513,7 @@ var CLASSES = {
               email: ""
             }
           ],
-          description: "Whether working in Information Technology, Data Science, Networking, Cybersecurity, Business Analytics/Intelligence, or Human Computer Interaction (HCI), the command line is a powerful tool that is used in many professional settings. This course is intended for all students looking to build a better understanding of how to use the command line to efficiently interact with the computer’s file system, automate computer tasks, and more."
+          description: "Whether working in Information Technology, Data Science, Networking, Cybersecurity, Business Analytics/Intelligence, or Human Computer Interaction (HCI), the command line is a powerful tool that is used in many professional settings. This course is intended for all students looking to build a better understanding of how to use the command line to efficiently interact with the computer’s file system, automate computer tasks, and more.",
           id: 125,
           title: "Linux Command Line Tools",
           website: null,
