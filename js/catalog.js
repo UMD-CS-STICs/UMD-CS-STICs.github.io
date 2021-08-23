@@ -2520,6 +2520,22 @@ var CLASSES = {
           department: "INST",
           credits: 1
         },
+	{
+          number: "299I",
+          advisor: "Richard Wentworth",
+          facilitators: [
+            {
+              name: "Siddharth Taneja",
+              email: ""
+            }
+          ],
+          description: "The goal of this course is to give a basic introduction to category theory on it's own from a undergraduate perspective. We'll start with the definition of a category, universal properties , adjoints, and the connections to set theory. In the second part of the course we'll discuss representations, Yoneda's Theorem, limits, colimits, and pullbacks. In the final part of the course (time-permitting) we'll talk about some extensions and some student requested topics. I would recommend having a background in proofs (410, 403, or 405 are good prerequisites), but contact me if you have questions.",
+          id: 126,
+          title: "Introduction to Category Theory",
+          website: null,
+          department: "MATH",
+          credits: 1
+        },
       ]
     }
 
