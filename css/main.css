@@ -61,7 +61,6 @@ strong {
     opacity: 0; }
   to {
     opacity: 1; } }
-
 @keyframes jump-in {
   from {
     bottom: -4rem;
@@ -69,7 +68,6 @@ strong {
   to {
     bottom: 0rem;
     opacity: 1; } }
-
 @keyframes apple-bg {
   from {
     bottom: -16rem;
@@ -77,7 +75,6 @@ strong {
   to {
     bottom: -8rem;
     opacity: .2; } }
-
 .highlight {
   padding: 4px;
   border-radius: 2px;
@@ -203,7 +200,7 @@ article.nav {
 
 article.hero {
   position: relative;
-  padding: 14rem 0rem 16rem; }
+  padding: 4rem 0rem 4rem; }
   article.hero h1, article.hero h3 {
     margin-bottom: 2rem; }
   article.hero p {
@@ -295,7 +292,6 @@ span.divider {
 
 article.home-info p {
   margin-bottom: 8rem; }
-
 article.home-info .dept-row a {
   opacity: .6; }
   article.home-info .dept-row a img {
@@ -310,7 +306,6 @@ article.home-info .dept-row a {
     article.home-info .dept-row a:hover img {
       filter: grayscale(0);
       transform: scale(1.02); }
-
 article.home-info .image-row img {
   width: 100%;
   border-radius: 2px;
@@ -328,16 +323,13 @@ article.catalog .class {
   animation-iteration-count: 1;
   animation-timing-function: ease-in;
   animation-duration: .35s; }
-
 @keyframes fadeIn {
   0% {
     opacity: 0; }
   100% {
     opacity: 1; } }
-
 article.catalog article.top h1 {
   padding-bottom: 4rem; }
-
 article.catalog article.bottom {
   padding-top: 2rem;
   padding-bottom: 6rem; }
@@ -360,7 +352,6 @@ article.catalog article.bottom {
     margin-top: 6rem;
     opacity: .5;
     text-align: center; }
-
 article.catalog article.catalog-settings {
   padding-top: 2rem;
   padding-bottom: 1rem;
@@ -511,7 +502,6 @@ article.footer {
     box-shadow: 0 2.5em 0 -1.3em; }
   40% {
     box-shadow: 0 2.5em 0 0; } }
-
 @keyframes load7 {
   0%,
   80%,
@@ -519,3 +509,5 @@ article.footer {
     box-shadow: 0 2.5em 0 -1.3em; }
   40% {
     box-shadow: 0 2.5em 0 0; } }
+
+/*# sourceMappingURL=main.css.map */
