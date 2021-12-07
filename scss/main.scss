@@ -345,6 +345,19 @@ article.home-info {
   }
 }
 
+
+article.team-members {
+  .image-row {
+    img {
+      border-radius: 50%;
+      margin-bottom: 1rem;
+    }
+    p {
+	margin-bottom: 1rem;
+    }
+  }
+}
+
 article.faq {
   @extend article.section;
   p, ul {
