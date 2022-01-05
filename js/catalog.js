@@ -2927,6 +2927,10 @@ var CLASSES = {
             {
               name: "Pierce Darragh",
               email: ""
+            },
+	    {
+              name: "Justin Frank",
+              email: ""
             }
           ],
           description: "Introduction to Programming Language Theory seeks to introduce undergraduate students to the realm of programming languages research. During one part of the semester, we will cover well-known results in the literature by reading and discussing research papers (which we will teach you how to read). In the other part, we will explore language features through extensions to the lambda calculus — an important tool in programming language theory. These extensions will be exhibited through student homework, and will culminate in an end-of-semester final project.",
@@ -2934,7 +2938,7 @@ var CLASSES = {
           title: "Introduction to Programming Language Theory",
           website: null,
           department: "CMSC",
-          credits: 1
+          credits: 2
         },
 	{
           number: "389F",
