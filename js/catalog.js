@@ -2743,10 +2743,6 @@ var CLASSES = {
             {
               name: " Nandhini Krishnan",
               email: ""
-            },
-            {
-              name: " Sanjay Srikumar",
-              email: ""
             }
           ],
           description: "Version control is an essential skill for developers to learn. Git and Github have become ubiquitous tools to version control, collaborate on, and share code. In this course, we will introduce fundamental concepts of the git architecture. We will work in an agile environment with basic to advanced commands to track changes, collaborate on shared codebases, automate testing and deployment pipelines, and enhance project management workflows. ",
