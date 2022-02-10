@@ -2865,7 +2865,7 @@ var CLASSES = {
           credits: 1
         },
 	{
-          number: "299C",
+          number: "238G",
           advisor: "Brian Pierce",
           facilitators: [
             {
