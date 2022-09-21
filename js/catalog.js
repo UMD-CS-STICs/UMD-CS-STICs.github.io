@@ -2969,18 +2969,18 @@ var CLASSES = {
       departments: ["MATH", "CMSC", "IDEA", "BSCI"],
       classes: [
         {
-          number: "258C",
-          advisor: "Mira Azarm",
+          number: "258A",
+          advisor: "Christina Hnatov, Brooke Smith, Rachel Thompson, Mira Azarm",
           facilitators: [
             {
               name: "Claire Knorr",
               email: "clairepknorr@gmail.com"
             }
           ],
-          description: "",  //CHECKHERE
+          description: "This introductory course allows students to try on the behaviors of a creative problem-solver, leveraging the methods and tools of design thinking, a human-centered innovation process. This is a highly experiential, often experimental course. All majors are encouraged to enroll.",
           id: 147,
-          title: "Designing Campaigns for Social Justice",
-          website: null,    //CHECKHERE
+          title: "Innovation Tools & Mindsets",
+          website: null,
           department: "IDEA",
           credits: 1
         },
@@ -2998,7 +2998,7 @@ var CLASSES = {
               email: "glee1236@terpmail.umd.edu"
             }
           ],
-          description: "",
+          description: "\"Explorations in Design\" gives students the opportunity to apply their unique backgrounds to the realm of design. Students will engage in hands-on learning with real world applications to incorporate design thinking into everyday life. By exploring each stage of the design process (from ideating to prototyping), students will develop a final project to pitch at the end of the semester.",
           id: 148,
           title: "Explorations in Design, Facilitators",
           website: null,
@@ -3015,10 +3015,10 @@ var CLASSES = {
               email: "kclose1@terpmail.umd.edu"
             }
           ],
-          description: "",
+          description: "What does \"User Experience\" mean? It was a term coined by cognitive psychologist and designer Don Norman in the 1990s on the cusp of the new digital era; however, the field in practice has existed long before that. Unfortunately, due to its over use and misuse, the pure concept of UX has become lost in the weeds and details of all of its components and methods. In this course, we will take a deep look at the true meaning of UX as simply a user's experience and what that means for you as both a designer and a user. You will learn about core UX principles and methodologies from both an academic and practical standpoint and be challenged to apply what you learn in classroom workshops and assignments. Finally, you will be asked to think both inside and outside the bounds of technology to find innovative solutions to real world design problems.",
           id: 149,
           title: "Introduction to UI/UX Design",
-          website: null,
+          website: "go.umd.edu/idea258u",
           department: "IDEA",
           credits: 1
         },
@@ -3053,7 +3053,7 @@ var CLASSES = {
               email: "karthiks@terpmail.umd.edu"
             },
             {
-              name: " Rachel (Rae) Wu",
+              name: " Rae Wu",
               email: "wuu@terpmail.umd.edu"
             }
           ],
@@ -3074,7 +3074,7 @@ var CLASSES = {
               email: "ktu@umd.edu"
             }
           ],
-          description: "",
+          description: "This course will combat the \"Kit Mentality\" by explaing the \"whys\" behind the most widely used technologies in the biological research field.",
           id: 152,
           title: "A Primer on Research Kits in the Life Sciences",
           website: null,
@@ -3095,7 +3095,7 @@ var CLASSES = {
               email: "gthein@terpmail.umd.edu"
             }
           ],
-          description: "",
+          description: "This course is for the undergraduate life sciences student with little-to-no programming experience who is looking to start building a strong computational foundation starting with Python, and explore how programming is used in the broader context of the life sciences. healthcare, and clinical research.",
           id: 153,
           title: "Introduction to Python Programming for the Life Sciences",
           website: null,
@@ -3133,7 +3133,7 @@ var CLASSES = {
           advisor: "Michelle Mazurek, Huaishu Peng",
           facilitators: [
             {
-              name: "", //CHECKLATER
+              name: "Aadria Bagchi",
               email: "abagchi@terpmail.umd.edu"
             }
           ],
@@ -3251,14 +3251,14 @@ var CLASSES = {
           ],
           description: "",
           id: 159,
-          title: "Special Topics in Computer Science; Introduction to Git, Github and Project Management",
+          title: "Introduction to Git, Github and Project Management",
           website: null,
           department: "CMSC",
           credits: 1
         },
 
         {
-          number: "389D",
+          number: "398D",
           advisor: "Wiseley Wong",
           facilitators: [
             {
@@ -3275,7 +3275,7 @@ var CLASSES = {
         },
 
         {
-          number: "389E",
+          number: "398E",
           advisor: "Justin Wyss Gallifent",
           facilitators: [
             {
@@ -3296,7 +3296,7 @@ var CLASSES = {
         },
 
         {
-          number: "389F",
+          number: "398F",
           advisor: "Jonathan Katz",
           facilitators: [
             {
