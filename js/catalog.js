@@ -2998,7 +2998,7 @@ var CLASSES = {
               email: "glee1236@terpmail.umd.edu"
             }
           ],
-          description: "",
+          description: "\"Explorations in Design\" gives students the opportunity to apply their unique backgrounds to the realm of design. Students will engage in hands-on learning with real world applications to incorporate design thinking into everyday life. By exploring each stage of the design process (from ideating to prototyping), students will develop a final project to pitch at the end of the semester.",
           id: 148,
           title: "Explorations in Design, Facilitators",
           website: null,
@@ -3015,10 +3015,10 @@ var CLASSES = {
               email: "kclose1@terpmail.umd.edu"
             }
           ],
-          description: "",
+          description: "What does \"User Experience\" mean? It was a term coined by cognitive psychologist and designer Don Norman in the 1990s on the cusp of the new digital era; however, the field in practice has existed long before that. Unfortunately, due to its over use and misuse, the pure concept of UX has become lost in the weeds and details of all of its components and methods. In this course, we will take a deep look at the true meaning of UX as simply a user's experience and what that means for you as both a designer and a user. You will learn about core UX principles and methodologies from both an academic and practical standpoint and be challenged to apply what you learn in classroom workshops and assignments. Finally, you will be asked to think both inside and outside the bounds of technology to find innovative solutions to real world design problems.",
           id: 149,
           title: "Introduction to UI/UX Design",
-          website: null,
+          website: "go.umd.edu/idea258u",
           department: "IDEA",
           credits: 1
         },
