@@ -3036,6 +3036,7 @@ var CLASSES = {
               email: "daylaian@terpmail.umd.edu"
             }
           ],
+          /* description needed? */
           description: "",
           id: 150,
           title: "Ripping Logic at the Seams: The Philosophical Foundations of Math",
@@ -3057,6 +3058,7 @@ var CLASSES = {
               email: "wuu@terpmail.umd.edu"
             }
           ],
+          /* description needed? */
           description: "",
           id: 151,
           title: "Mathematics and Art",
@@ -3120,7 +3122,8 @@ var CLASSES = {
               email: "aliu4131@terpmail.umd.edu"
             }
           ],
-          description: "",
+          /* description is carried over from spring 2022 */
+          description: "This course is an introduction to building secure, full-stack web applications with Python and Flask. We'll start with Python and Flask and transition to web application security, where we'll look at different types of security vulnerabilities and best practices to patch up these vulnerabilities in your own apps. Then, we'll go to building your own API and securely authenticating with it, and finish by showing you how you can deploy your web app!",
           id: 154,
           title: "Building Secure Web Applications with Python and Flask",
           website: null,
@@ -3137,7 +3140,8 @@ var CLASSES = {
               email: "abagchi@terpmail.umd.edu"
             }
           ],
-          description: "",
+          /* description is carried over from spring 2022 */
+          description: "Students are introduced to the tools, techniques, and resources to nail their PM (Product Management) interviews. We'll be providing hands-on practice with PM specific topics including product design, analytical, and case questions.",
           id: 155,
           title: "Mastering the PM Interview",
           website: null,
@@ -3158,7 +3162,8 @@ var CLASSES = {
               email: "schmidta@umd.edu"
             }
           ],
-          description: "",
+          /* description is carried over from spring 2022 */
+          description: "This hands-on course provides an introduction to ethical hacking that begins with a discussion on the ethics behind security research and progresses to topics including penetration testing, forensics, cryptography, reverse engineering, and exploitation. This course is also meant to introduce students to Capture-the-Flag (CTF) style cybersecurity challenges, encourages participation in the Cybersecurity Club at UMD, and prepares for CMSC414.",
           id: 156,
           title: "Introduction to Ethical Hacking",
           website: null,
@@ -3211,7 +3216,8 @@ var CLASSES = {
               email: "ktang124@terpmail.umd.edu"
             }
           ],
-          description: "",
+          /* description is carried over from spring 2022 */
+          description: "This course provides a comprehensive, practical introduction to technical interviews. The course will start with basic topics such as Big O and String Manipulation. We will then move into more complex topics such as Graphs and Dynamic Programming. Most of the classes will be in-class interviews to give real interview practice.",
           id: 157,
           title: "The Coding Interview",
           website: null,
@@ -3228,7 +3234,8 @@ var CLASSES = {
               email: "scheruku@terpmail.umd.edu"
             }
           ],
-          description: "",
+          /* description is carried over from spring 2022 */
+          description: "In this course, students are given a scoped experience of a Software Engineering industry job and relevant tools/practices to accelerate acclimation to a future SWE Intern or Full-Time role. Topics/Skills covered include: Git, Code Reviews, AWS basics, Design Docs, unit testing, virtual machines, etc. Students will contribute to a complex code base to simulate designing, implementing, and testing new features in a professional setting.",
           id: 158,
           title: "What to do After Landing a SWE Job",
           website: null,
@@ -3249,7 +3256,8 @@ var CLASSES = {
               email: "ssaxena1@terpmail.umd.edu"
             }
           ],
-          description: "",
+          /* description is carried over from spring 2022 */
+          description: "Version control is an essential skill for developers to learn. Git and Github have become ubiquitous tools to version control, collaborate on, and share code. In this course, we will introduce fundamental concepts of the git architecture. We will work in an agile environment with basic to advanced commands to track changes, collaborate on shared codebases, automate testing and deployment pipelines, and enhance project management workflows.",
           id: 159,
           title: "Introduction to Git, Github and Project Management",
           website: null,
@@ -3266,6 +3274,7 @@ var CLASSES = {
               email: "bmohamm7@terpmail.umd.edu"
             }
           ],
+          /* description needed? */
           description: "",
           id: 160,
           title: "Introduction to Artificial Intelligence in Healthcare",
@@ -3287,6 +3296,7 @@ var CLASSES = {
               email: "avepa@terpmail.umd.edu"
             }
           ],
+          /* description needed? */
           description: "",
           id: 161,
           title: "Essential Data Science Skills & Techniques",
@@ -3312,6 +3322,7 @@ var CLASSES = {
               email: "nghate@terpmail.umd.edu"
             }
           ],
+          /* description needed? */
           description: "",
           id: 162,
           title: "Introduction to Blockchain and Cryptocurrency",
