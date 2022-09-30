@@ -188,9 +188,9 @@ function createDiv(cl) {
 }
 
 // TODO add semesters here
-var SEMESTERS = ['spring 2017', 'fall 2017', 'spring 2018', 'fall 2018', 'spring 2019', 'fall 2019', 'spring 2020', 'fall 2020', 'fall 2021', 'spring 2022'];
+var SEMESTERS = ['spring 2017', 'fall 2017', 'spring 2018', 'fall 2018', 'spring 2019', 'fall 2019', 'spring 2020', 'fall 2020', 'fall 2021', 'spring 2022', 'fall 2022'];
 
-var CURRENT_SEMESTER = 'spring 2022';
+var CURRENT_SEMESTER = 'fall 2022';
 
 // TODO add classes here
 var CLASSES = {
@@ -2956,6 +2956,369 @@ var CLASSES = {
           department: "CMSC",
           credits: 1
         },  
+      ]
+    },
+
+    // -------------------------------------------------------------
+    // BEGIN
+    // FALL 2022 
+    // CATALOG
+    // -------------------------------------------------------------
+      
+    'fall 2022': {
+      departments: ["MATH", "CMSC", "IDEA", "BSCI"],
+      classes: [
+        {
+          number: "258A",
+          advisor: "Christina Hnatov, Brooke Smith, Rachel Thompson, Mira Azarm",
+          facilitators: [
+            {
+              name: "Claire Knorr",
+              email: "clairepknorr@gmail.com"
+            }
+          ],
+          description: "This introductory course allows students to try on the behaviors of a creative problem-solver, leveraging the methods and tools of design thinking, a human-centered innovation process. This is a highly experiential, often experimental course. All majors are encouraged to enroll.",
+          id: 147,
+          title: "Innovation Tools & Mindsets",
+          website: null,
+          department: "IDEA",
+          credits: 1
+        },
+
+        {
+          number: "258D",
+          advisor: "Brooke Smith",
+          facilitators: [
+            {
+              name: "Paula Shin",
+              email: "paulashin15@gmail.com"
+            },
+            {
+              name: " Grace Suhyun Lee",
+              email: "glee1236@terpmail.umd.edu"
+            }
+          ],
+          description: "\"Explorations in Design\" gives students the opportunity to apply their unique backgrounds to the realm of design. Students will engage in hands-on learning with real world applications to incorporate design thinking into everyday life. By exploring each stage of the design process (from ideating to prototyping), students will develop a final project to pitch at the end of the semester.",
+          id: 148,
+          title: "Explorations in Design, Facilitators",
+          website: null,
+          department: "IDEA",
+          credits: 1
+        },
+
+        {
+          number: "258U",
+          advisor: "Mira Azarm",
+          facilitators: [
+            {
+              name: "Kat Close",
+              email: "kclose1@terpmail.umd.edu"
+            }
+          ],
+          description: "What does \"User Experience\" mean? It was a term coined by cognitive psychologist and designer Don Norman in the 1990s on the cusp of the new digital era; however, the field in practice has existed long before that. Unfortunately, due to its over use and misuse, the pure concept of UX has become lost in the weeds and details of all of its components and methods. In this course, we will take a deep look at the true meaning of UX as simply a user's experience and what that means for you as both a designer and a user. You will learn about core UX principles and methodologies from both an academic and practical standpoint and be challenged to apply what you learn in classroom workshops and assignments. Finally, you will be asked to think both inside and outside the bounds of technology to find innovative solutions to real world design problems.",
+          id: 149,
+          title: "Introduction to UI/UX Design",
+          website: "go.umd.edu/idea258u",
+          department: "IDEA",
+          credits: 1
+        },
+
+        {
+          number: "299R",
+          advisor: "Terence Long",
+          facilitators: [
+            {
+              name: "Samuel Lidz",
+              email: "slidz@terpmail.umd.edu"
+            },
+            {
+              name: " Ezra Aylaian",
+              email: "daylaian@terpmail.umd.edu"
+            }
+          ],
+          description: "",
+          id: 150,
+          title: "Ripping Logic at the Seams: The Philosophical Foundations of Math",
+          website: null,
+          department: "MATH",
+          credits: 1
+        },
+
+        {
+          number: "299W",
+          advisor: "Niranjan Ramachandran",
+          facilitators: [
+            {
+              name: "Karthik Sellakumaran Latha",
+              email: "karthiks@terpmail.umd.edu"
+            },
+            {
+              name: " Rae Wu",
+              email: "wuu@terpmail.umd.edu"
+            }
+          ],
+          description: "",
+          id: 151,
+          title: "Mathematics and Art",
+          website: null,
+          department: "MATH",
+          credits: 1
+        },
+
+        {
+          number: "238D",
+          advisor: "Dr. Jonathan Dinman, Dr. David Straney",
+          facilitators: [
+            {
+              name: "Kevin Tu",
+              email: "ktu@umd.edu"
+            }
+          ],
+          description: "This course will combat the \"Kit Mentality\" by explaing the \"whys\" behind the most widely used technologies in the biological research field.",
+          id: 152,
+          title: "A Primer on Research Kits in the Life Sciences",
+          website: null,
+          department: "BSCI",
+          credits: 1
+        },
+
+        {
+          number: "238F",
+          advisor: "Dr. Daniel Butts",
+          facilitators: [
+            {
+              name: "Rakshita Balaji",
+              email: "rbalaji@terpmail.umd.edu"
+            },
+            {
+              name: " Garmani Thein",
+              email: "gthein@terpmail.umd.edu"
+            }
+          ],
+          description: "This course is for the undergraduate life sciences student with little-to-no programming experience who is looking to start building a strong computational foundation starting with Python, and explore how programming is used in the broader context of the life sciences. healthcare, and clinical research.",
+          id: 153,
+          title: "Introduction to Python Programming for the Life Sciences",
+          website: null,
+          department: "BSCI",
+          credits: 1
+        },
+
+        {
+          number: "388J",
+          advisor: "Michael Marsh",
+          facilitators: [
+            {
+              name: "Shrikar Vasisht",
+              email: "svasisht@terpmail.umd.edu"
+            },
+            {
+              name: " Pace Ockerman",
+              email: "pace@terpmail.umd.edu"
+            },
+            {
+              name: " Alex Liu",
+              email: "aliu4131@terpmail.umd.edu"
+            }
+          ],
+          description: "",
+          id: 154,
+          title: "Building Secure Web Applications with Python and Flask",
+          website: null,
+          department: "CMSC",
+          credits: 1
+        },
+
+        {
+          number: "389P",
+          advisor: "Michelle Mazurek, Huaishu Peng",
+          facilitators: [
+            {
+              name: "Aadria Bagchi",
+              email: "abagchi@terpmail.umd.edu"
+            }
+          ],
+          description: "",
+          id: 155,
+          title: "Mastering the PM Interview",
+          website: null,
+          department: "CMSC",
+          credits: 1
+        },
+
+        {
+          number: "388U",
+          advisor: "Dave Levin",
+          facilitators: [
+            {
+              name: "John Gorbachev",
+              email: "jgorbach@umd.edu"
+            },
+            {
+              name: " Alden Schmidt",
+              email: "schmidta@umd.edu"
+            }
+          ],
+          description: "",
+          id: 156,
+          title: "Introduction to Ethical Hacking",
+          website: null,
+          department: "CMSC",
+          credits: 1
+        },
+
+        {
+          number: "389O",
+          advisor: "Thomas Goldstein",
+          facilitators: [
+            {
+              name: "Vidushi Vahist",
+              email: "vvashist@terpmail.umd.edu"
+            },
+            {
+              name: " Abhinav Vedmala",
+              email: "avedmala@terpmail.umd.edu"
+            },
+            {
+              name: " Elliot Ruebush",
+              email: "eruebush@terpmail.umd.edu"
+            },
+            {
+              name: " Michael Mannino",
+              email: "mmannino@terpmail.umd.edu"
+            },
+            {
+              name: " Stephanie Wang",
+              email: "swang115@terpmail.umd.edu"
+            },
+            {
+              name: " Eugene Domrachev",
+              email: "edomrach@terpmail.umd.edu"
+            },
+            {
+              name: " Andrew Yuan",
+              email: "ayuan124@terpmail.umd.edu"
+            },
+            {
+              name: " Harleen Kaur",
+              email: "hkaur@terpmail.umd.edu"
+            },
+            {
+              name: " Jason Devers",
+              email: "jdevers1@terpmail.umd.edu"
+            },
+            {
+              name: " Kevin Tang",
+              email: "ktang124@terpmail.umd.edu"
+            }
+          ],
+          description: "",
+          id: 157,
+          title: "The Coding Interview",
+          website: null,
+          department: "CMSC",
+          credits: 1
+        },
+
+        {
+          number: "389G",
+          advisor: "Garrett Vanhoy",
+          facilitators: [
+            {
+              name: "Siddharth Cherukupalli",
+              email: "scheruku@terpmail.umd.edu"
+            }
+          ],
+          description: "",
+          id: 158,
+          title: "What to do After Landing a SWE Job",
+          website: null,
+          department: "CMSC",
+          credits: 1
+        },
+
+        {
+          number: "389T",
+          advisor: "Cliff Bakalian",
+          facilitators: [
+            {
+              name: "Nandhini Krishnan",
+              email: "nankri3@terpmail.umd.edu"
+            },
+            {
+              name: " Sagar Saxena",
+              email: "ssaxena1@terpmail.umd.edu"
+            }
+          ],
+          description: "",
+          id: 159,
+          title: "Introduction to Git, Github and Project Management",
+          website: null,
+          department: "CMSC",
+          credits: 1
+        },
+
+        {
+          number: "398D",
+          advisor: "Wiseley Wong",
+          facilitators: [
+            {
+              name: "Bilal Mohammed",
+              email: "bmohamm7@terpmail.umd.edu"
+            }
+          ],
+          description: "",
+          id: 160,
+          title: "Introduction to Artificial Intelligence in Healthcare",
+          website: null,
+          department: "CMSC",
+          credits: 1
+        },
+
+        {
+          number: "398E",
+          advisor: "Justin Wyss Gallifent",
+          facilitators: [
+            {
+              name: "Sneha Sureshanand",
+              email: "ssuresha@terpmail.umd.edu"
+            },
+            {
+              name: " Ananya Vepa",
+              email: "avepa@terpmail.umd.edu"
+            }
+          ],
+          description: "",
+          id: 161,
+          title: "Essential Data Science Skills & Techniques",
+          website: null,
+          department: "CMSC",
+          credits: 1
+        },
+
+        {
+          number: "398F",
+          advisor: "Jonathan Katz",
+          facilitators: [
+            {
+              name: "Om Pathak",
+              email: "ompathak@terpmail.umd.edu"
+            },
+            {
+              name: " Nikhil Ghate",
+              email: "sdigamba@terpmail.umd.edu"
+            },
+            {
+              name: " Soham Digambar",
+              email: "nghate@terpmail.umd.edu"
+            }
+          ],
+          description: "",
+          id: 162,
+          title: "Introduction to Blockchain and Cryptocurrency",
+          website: null,
+          department: "CMSC",
+          credits: 1
+        }
       ]
     }
 
