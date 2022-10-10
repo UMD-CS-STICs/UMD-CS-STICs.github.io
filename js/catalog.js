@@ -3036,8 +3036,8 @@ var CLASSES = {
               email: "daylaian@terpmail.umd.edu"
             }
           ],
-          /* description needed? */
-          description: "",
+          /* updated description */
+          description: "Do mathematical objects exist? If so, in what way, and how are we allowed to reason about them? How do our answers to these questions affect our mathematics? Mathematicians have been arguing over the mathematical and philosophical foundations of math for as long as math has been around. We will go through ideas largely in their historical order of development, beginning with Platonism, then proceeding to the Formalism of Hilbert, the Constructivism of Bishop, and finishing with a look at various modern perspectives. Out of this debate, one thing is clear: our philosophical tastes inform which axioms we should accept (if any), what math we should do, and how we are allowed to do it. In this course, we will overview several of the prevailing philosophical viewpoints that have emerged. These perspectives are often at odds with each other, so this course is designed to help you develop your own perspective about these topics. This course will require both mathematical and philosophical discussion, as the philosophy will inform the mathematical systems we develop, and the consequences of the mathematical systems we develop will in turn inform our philosophy. We will be talking about the math arising from philosophical ideas as much as we will be talking about the philosophical ideas themselves.",
           id: 150,
           title: "Ripping Logic at the Seams: The Philosophical Foundations of Math",
           website: null,
