@@ -364,6 +364,14 @@ article.faq {
     margin-bottom: 4rem;
   }
 }
+
+article.enroll {
+  @extend article.section;
+  p, ul {
+    margin-bottom: 4rem;
+  }
+}
+
 // article.team {
 //   @extend article.section;
 //   h2 {

@@ -3329,6 +3329,23 @@ var CLASSES = {
           website: null,
           department: "CMSC",
           credits: 1
+        },
+
+        {
+          number: "289U",
+          advisor: "",
+          facilitators: [
+            {
+              name: "Jacob Toll",
+              email: ""
+            }
+          ],
+          description: "An introduction to various forms of political comedy and its sociopolitical impact in the past and present.",
+          id: 163,
+          title: "Political Comedy: How Laughter Shapes Political Discourse",
+          website: null,
+          department: "GVPT",
+          credits: 1
         }
       ]
     }
