@@ -3076,7 +3076,7 @@ var CLASSES = {
               email: "ktu@umd.edu"
             }
           ],
-          description: "This course will combat the \"Kit Mentality\" by explaing the \"whys\" behind the most widely used technologies in the biological research field.",
+          description: "This course will combat the \"Kit Mentality\" by explaining the \"whys\" behind the most widely used technologies in the biological research field.",
           id: 152,
           title: "A Primer on Research Kits in the Life Sciences",
           website: null,
