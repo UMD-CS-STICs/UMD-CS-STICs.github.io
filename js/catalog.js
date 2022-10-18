@@ -3076,7 +3076,8 @@ var CLASSES = {
               email: "ktu@umd.edu"
             }
           ],
-          description: "This course will combat the \"Kit Mentality\" by explaing the \"whys\" behind the most widely used technologies in the biological research field.",
+          /* updated description */
+          description: "This course will introduce students to common research techniques found in molecular biology labs, how they work, and how to troubleshoot them. Lecture topics will focus on the biochemical and biophysical theory behind techniques rather than hands-on experience.",
           id: 152,
           title: "A Primer on Research Kits in the Life Sciences",
           website: null,
