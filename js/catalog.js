@@ -3097,7 +3097,8 @@ var CLASSES = {
               email: "gthein@terpmail.umd.edu"
             }
           ],
-          description: "This course is for the undergraduate life sciences student with little-to-no programming experience who is looking to start building a strong computational foundation starting with Python, and explore how programming is used in the broader context of the life sciences. healthcare, and clinical research.",
+          /* updated description */
+          description: "This course is for the undergraduate students with little-to-no programming experience who are looking to start building a strong computational foundation in Python while exploring how programming is used in the broader context of the life sciences.",
           id: 153,
           title: "Introduction to Python Programming for the Life Sciences",
           website: null,
