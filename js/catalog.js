@@ -188,9 +188,9 @@ function createDiv(cl) {
 }
 
 // TODO add semesters here
-var SEMESTERS = ['spring 2017', 'fall 2017', 'spring 2018', 'fall 2018', 'spring 2019', 'fall 2019', 'spring 2020', 'fall 2020', 'fall 2021', 'spring 2022', 'fall 2022'];
+var SEMESTERS = ['spring 2017', 'fall 2017', 'spring 2018', 'fall 2018', 'spring 2019', 'fall 2019', 'spring 2020', 'fall 2020', 'fall 2021', 'spring 2022', 'fall 2022', 'spring 2023'];
 
-var CURRENT_SEMESTER = 'fall 2022';
+var CURRENT_SEMESTER = 'spring 2023';
 
 // TODO add classes here
 var CLASSES = {
@@ -3625,7 +3625,7 @@ var CLASSES = {
         },
 
         {
-          number: "238G (Not listed on Testudo yet)",
+          number: "238G",
           advisor: "Brian Pierce",
           facilitators: [
             {
@@ -3633,7 +3633,8 @@ var CLASSES = {
               email: "schan12@terpmail.umd.edu"
             }
           ],
-          description: "An introduction to various forms of political comedy and its sociopolitical impact in the past and present.",
+          /* description needed */
+          description: "(Not listed on Testudo yet.)",
           id: 175,
           title: "Introduction to Shell Scripting for the Life Sciences",
           website: null,
@@ -3642,7 +3643,7 @@ var CLASSES = {
         },
 
         {
-          number: "--- (Not listed on Testudo yet)",
+          number: "---",
           advisor: "Jeff Mund",
           facilitators: [
             {
@@ -3650,7 +3651,8 @@ var CLASSES = {
               email: "mkulkar2@umd.edu"
             }
           ],
-          description: "An introduction to various forms of political comedy and its sociopolitical impact in the past and present.",
+          /* description needed */
+          description: "(Not listed on Testudo yet.)",
           id: 176,
           title: "The Business of Music",
           website: null,
@@ -3677,7 +3679,7 @@ var CLASSES = {
         },
 
         {
-          number: "--- (Not listed on Testudo yet)",
+          number: "---",
           advisor: "Dr. William Reed",
           facilitators: [
             {
@@ -3685,7 +3687,7 @@ var CLASSES = {
               email: "smudd@terpmail.umd.edu"
             }
           ],
-          description: "",
+          description: "(Not listed on Testudo yet.)",
           id: 178,
           title: "International Security & Relations Simulation Lab",
           website: null,
@@ -3771,7 +3773,7 @@ var CLASSES = {
         },
 
         {
-          number: "--- (Not listed on Testudo yet)",
+          number: "---",
           advisor: "Amin Gholampour",
           facilitators: [
             {
@@ -3780,7 +3782,7 @@ var CLASSES = {
             }
           ],
           /* description needed */
-          description: "",
+          description: "(Not listed on Testudo yet.)",
           id: 183,
           title: "Quiver Representations",
           website: null,
@@ -3789,7 +3791,7 @@ var CLASSES = {
         },
 
         {
-          number: "--- (Not listed on Testudo yet)",
+          number: "---",
           advisor: "Niranjan Ramachandran",
           facilitators: [
             {
@@ -3798,7 +3800,7 @@ var CLASSES = {
             }
           ],
           /* description needed */
-          description: "",
+          description: "(Not listed on Testudo yet.)",
           id: 184,
           title: "Category Theory",
           website: null,
@@ -3807,7 +3809,7 @@ var CLASSES = {
         },
 
         {
-          number: "299C (Not listed on Testudo yet)",
+          number: "299C",
           advisor: "Niranjan Ramachandran",
           facilitators: [
             {
@@ -3816,7 +3818,7 @@ var CLASSES = {
             }
           ],
           /* description needed */
-          description: "",
+          description: "(Not listed on Testudo yet.)",
           id: 185,
           title: "The Mathematics of Music",
           website: null,
@@ -3825,7 +3827,7 @@ var CLASSES = {
         },
 
         {
-          number: "--- (Not listed on Testudo yet)",
+          number: "---",
           advisor: "William Evans",
           facilitators: [
             {
@@ -3834,7 +3836,7 @@ var CLASSES = {
             }
           ],
           /* description needed */
-          description: "",
+          description: "(Not listed on Testudo yet.)",
           id: 186,
           title: "Exploring Vocal Styles Between Styles of Music",
           website: null,
@@ -3843,7 +3845,7 @@ var CLASSES = {
         },
 
         {
-          number: "--- (Not listed on Testudo yet)",
+          number: "---",
           advisor: "Dr. Craig S Fryer",
           facilitators: [
             {
@@ -3852,7 +3854,7 @@ var CLASSES = {
             }
           ],
           /* description needed */
-          description: "",
+          description: "(Not listed on Testudo yet.)",
           id: 187,
           title: "Achieving Wellbeing",
           website: null,
