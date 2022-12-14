@@ -2966,7 +2966,7 @@ var CLASSES = {
     // -------------------------------------------------------------
       
     'fall 2022': {
-      departments: ["MATH", "CMSC", "IDEA", "BSCI"],
+      departments: ["MATH", "CMSC", "IDEA", "BSCI", "GVPT"],
       classes: [
         {
           number: "258A",
@@ -3359,7 +3359,7 @@ var CLASSES = {
     // -------------------------------------------------------------
       
     'spring 2023': {
-      departments: ["MATH", "CMSC", "IDEA", "BSCI"],
+      departments: ["BMGT", "BSCI", "CMSC", "GVPT", "IDEA", "IMDM", "MATH", "MUSC", "SPHL"],
       classes: [
         {
           number: "388J",
