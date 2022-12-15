@@ -3378,7 +3378,6 @@ var CLASSES = {
               email: "aliu4131@terpmail.umd.edu"
             }
           ],
-          /* description is carried over from spring 2022 */
           description: "This course is an introduction to building secure, full-stack web applications with Python and Flask. We'll start with Python and Flask and transition to web application security, where we'll look at different types of security vulnerabilities and best practices to patch up these vulnerabilities in your own apps. Then, we'll go to building your own API and securely authenticating with it, and finish by showing you how you can deploy your web app!",
           id: 164,
           title: "Building Secure Web Applications with Python and Flask",
@@ -3396,8 +3395,7 @@ var CLASSES = {
               email: "lsteven7@terpmail.umd.edu"
             }
           ],
-          /* description is carried over from fall 2021 */
-          description: "This course will explore the history computer science from the perspective of the people that built it. We will look at the achievements of each generation, and see how they shaped the ones after them. We will see the developments since antiquity all the way to today, exploring a range of topics from theoretical computing, code-cracking, the Internet, A.I, Open Source, and more. This class is intended to give you a comprehensive view of the history of Computer Science, without too much focus on any specific topic.",
+          description: "This class will explore the history and evolution of computer science from its early foundations through the atomic age, the Y2K Bug, the internet revolution, the present day, and beyond. This course will cover not only the people and work behind the advances in computing, but also the technologies of yesteryear that eventually evolved into the devices that have become ubiquitous today. We will observe how computing has impacted society throughout time, and the reactions to its advances through the normalization of digital technologies.",
           id: 165,
           title: "History of Computer Science and Digital Technologies",
           website: null,
@@ -3418,7 +3416,6 @@ var CLASSES = {
               email: "bhuvanj@terpmail.umd.edu"
             }
           ],
-          /* description is carried over from spring 2022 */
           description: "In this course, students are given a scoped experience of a Software Engineering industry job and relevant tools/practices to accelerate acclimation to a future SWE Intern or Full-Time role. Topics/Skills covered include: Git, Code Reviews, AWS basics, Design Docs, unit testing, virtual machines, etc. Students will contribute to a complex code base to simulate designing, implementing, and testing new features in a professional setting.",
           id: 166,
           title: "What to do After Landing a SWE Job",
@@ -3468,7 +3465,6 @@ var CLASSES = {
               email: "mmannino@terpmail.umd.edu"
             }
           ],
-          /* description is carried over from spring 2022 */
           description: "This course provides a comprehensive, practical introduction to technical interviews. The course will start with basic topics such as Big O and String Manipulation. We will then move into more complex topics such as Graphs and Dynamic Programming. Most of the classes will be in-class interviews to give real interview practice.",
           id: 167,
           title: "The Coding Interview",
@@ -3490,8 +3486,7 @@ var CLASSES = {
               email: "shreyak7@terpmail.umd.edu"
             }
           ],
-          /* description is carried over from spring 2022 */
-          description: "Students are introduced to the tools, techniques, and resources to nail their PM (Product Management) interviews. We'll be providing hands-on practice with PM specific topics including product design, analytical, and case questions.",
+          description: "Product Management is an interesting intersection of technology and business that students are given the opportunity to learn more about in this class. Students are introduced to the tools, techniques, and resources to nail their PM (Product Management) interviews. We'll be providing hands-on practice with PM specific topics including product design, analytical, and case questions. By the end of the class, you should be acing all your PM interviews!",
           id: 168,
           title: "Mastering the PM Interview",
           website: null,
@@ -3512,8 +3507,7 @@ var CLASSES = {
               email: "ssaxena1@terpmail.umd.edu"
             }
           ],
-          /* description is carried over from spring 2022 */
-          description: "Version control is an essential skill for developers to learn. Git and Github have become ubiquitous tools to version control, collaborate on, and share code. In this course, we will introduce fundamental concepts of the git architecture. We will work in an agile environment with basic to advanced commands to track changes, collaborate on shared codebases, automate testing and deployment pipelines, and enhance project management workflows.",
+          description: "Version control and collaboration are essential skills for developers to learn. Students will learn how to use Git for basic and advanced workflows, GitHub for team and project management, and explore tools to help them excel in a DevOps environment.",
           id: 169,
           title: "Introduction to Git, Github and Project Management",
           website: null,
@@ -3530,7 +3524,7 @@ var CLASSES = {
               email: "bmohamm7@terpmail.umd.edu"
             }
           ],
-          /* description needed? */
+          /* description needed */
           description: "",
           id: 170,
           title: "Introduction to Artificial Intelligence in Healthcare",
@@ -3552,8 +3546,7 @@ var CLASSES = {
               email: "avepa@terpmail.umd.edu"
             }
           ],
-          /* description needed? */
-          description: "",
+          description: "In this course, students will learn the tools and techniques needed to succeed in the field of data science. They will engage in simulations that allow them to develop SQL/R coding skills, and learn how to effectively present these findings. They will also utilize analytical thinking to solve real-world data science problems.",
           id: 171,
           title: "Essential Data Science Skills & Techniques",
           website: null,
@@ -3563,7 +3556,7 @@ var CLASSES = {
 
         {
           number: "398F",
-          /* TODO: need to update when given! */
+          /* advisor needed */
           advisor: "",
           facilitators: [
             {
@@ -3579,7 +3572,7 @@ var CLASSES = {
               email: "nghate@terpmail.umd.edu"
             }
           ],
-          /* description needed? */
+          /* description needed */
           description: "",
           id: 172,
           title: "Introduction to Blockchain and Cryptocurrency",
@@ -3597,8 +3590,7 @@ var CLASSES = {
               email: "vchari@terpmail.umd.edu"
             }
           ],
-          /* description needed? */
-          description: "",
+          description: "This course will introduce students to shell scripting, the glue between various utilities and the method of choice of many programmers to interact with their systems. The differences between and shell languages and their more mainstream counterparts will be explored. Topics include composing programs, concurrency, error handling, customizing ones shell, security vulnerabilities. Projects will be based on reimplementing common utilities.  ",
           id: 173,
           title: "Introduction to Shell Scripting",
           website: null,
@@ -3615,8 +3607,7 @@ var CLASSES = {
               email: "aqu1@terpmail.umd.edu"
             }
           ],
-          /* description needed? */
-          description: "",
+          description: "In this course, students will learn about shaders and how they contribute to the underlying processes that make visualizing 3D games and simulations possible. This course will cover basic concepts of linear algebra and go over creating scenes and shaders using the popular JavaScript library, Three.js. We will then cover basic lighting systems as well as the normal, flat, goraud, phong, blinn-phong, cel, and contour shading techniques and explore the various visual effects they achieve.",
           id: 174,
           title: "Basic Shaders in Three.js",
           website: null,
