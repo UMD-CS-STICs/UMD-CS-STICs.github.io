@@ -3484,6 +3484,10 @@ var CLASSES = {
             {
               name: " Shreya Kumaraswamy",
               email: "shreyak7@terpmail.umd.edu"
+            },
+            {
+              name: " Rachel Modi",
+              email: "rachel.modi@yahoo.com"
             }
           ],
           description: "Product Management is an interesting intersection of technology and business that students are given the opportunity to learn more about in this class. Students are introduced to the tools, techniques, and resources to nail their PM (Product Management) interviews. We'll be providing hands-on practice with PM specific topics including product design, analytical, and case questions. By the end of the class, you should be acing all your PM interviews!",
@@ -3813,7 +3817,7 @@ var CLASSES = {
             }
           ],
           /* description needed */
-          description: "(Not listed on Testudo yet.)",
+          description: "",
           id: 185,
           title: "Mathematics and Art",
           website: null,
