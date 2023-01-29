@@ -3764,7 +3764,7 @@ var CLASSES = {
         },
 
         {
-          number: "---",
+          number: "299Q",
           advisor: "Amin Gholampour",
           facilitators: [
             {
@@ -3773,27 +3773,9 @@ var CLASSES = {
             }
           ],
           /* description needed */
-          description: "(Not listed on Testudo yet.)",
+          description: "",
           id: 183,
           title: "Quiver Representations",
-          website: null,
-          department: "MATH",
-          credits: 1
-        },
-
-        {
-          number: "---",
-          advisor: "Niranjan Ramachandran",
-          facilitators: [
-            {
-              name: "Turner McLaurin",
-              email: "hmclauri@terpmail.umd.edu"
-            }
-          ],
-          /* description needed */
-          description: "(Not listed on Testudo yet.)",
-          id: 184,
-          title: "Category Theory",
           website: null,
           department: "MATH",
           credits: 1
@@ -3804,14 +3786,36 @@ var CLASSES = {
           advisor: "Niranjan Ramachandran",
           facilitators: [
             {
-              name: "Alex Yelovich",
-              email: "ayelovic@umd.edu"
+              name: "Turner McLaurin",
+              email: "hmclauri@terpmail.umd.edu"
+            }
+          ],
+          /* description needed */
+          description: "",
+          id: 184,
+          title: "Category Theory",
+          website: null,
+          department: "MATH",
+          credits: 1
+        },
+
+        {
+          number: "299W",
+          advisor: "Niranjan Ramachandran",
+          facilitators: [
+            {
+              name: "Karthik Sellakumaran Latha",
+              email: "karthiks@terpmail.umd.edu"
+            },
+            {
+              name: " Rae Wu",
+              email: "rwuu@terpmail.umd.edu"
             }
           ],
           /* description needed */
           description: "(Not listed on Testudo yet.)",
           id: 185,
-          title: "The Mathematics of Music",
+          title: "Mathematics and Art",
           website: null,
           department: "MATH",
           credits: 1
