@@ -3629,7 +3629,7 @@ var CLASSES = {
             }
           ],
           /* description needed */
-          description: "(Not listed on Testudo yet.)",
+          description: "",
           id: 175,
           title: "Introduction to Shell Scripting for the Life Sciences",
           website: null,
@@ -3638,7 +3638,7 @@ var CLASSES = {
         },
 
         {
-          number: "---",
+          number: "299C",
           advisor: "Jeff Mund",
           facilitators: [
             {
@@ -3647,7 +3647,7 @@ var CLASSES = {
             }
           ],
           /* description needed */
-          description: "(Not listed on Testudo yet.)",
+          description: "",
           id: 176,
           title: "The Business of Music",
           website: null,
@@ -3674,7 +3674,7 @@ var CLASSES = {
         },
 
         {
-          number: "---",
+          number: "289K",
           advisor: "Dr. William Reed",
           facilitators: [
             {
@@ -3682,7 +3682,7 @@ var CLASSES = {
               email: "smudd@terpmail.umd.edu"
             }
           ],
-          description: "(Not listed on Testudo yet.)",
+          description: "",
           id: 178,
           title: "International Security & Relations Simulation Lab",
           website: null,
@@ -3826,7 +3826,7 @@ var CLASSES = {
         },
 
         {
-          number: "---",
+          number: "248E",
           advisor: "William Evans",
           facilitators: [
             {
@@ -3835,7 +3835,7 @@ var CLASSES = {
             }
           ],
           /* description needed */
-          description: "(Not listed on Testudo yet.)",
+          description: "",
           id: 186,
           title: "Exploring Vocal Styles Between Styles of Music",
           website: null,
