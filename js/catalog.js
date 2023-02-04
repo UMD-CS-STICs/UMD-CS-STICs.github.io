@@ -3359,7 +3359,7 @@ var CLASSES = {
     // -------------------------------------------------------------
       
     'spring 2023': {
-      departments: ["BMGT", "BSCI", "CMSC", "GVPT", "IDEA", "IMDM", "MATH", "MUSC", "SPHL"],
+      departments: ["BMGT", "BSCI", "CMSC", "GVPT", "IDEA", "IMDM", "MATH", "MUSC", "HLTH"],
       classes: [
         {
           number: "388J",
@@ -3844,7 +3844,7 @@ var CLASSES = {
         },
 
         {
-          number: "---",
+          number: "289A",
           advisor: "Dr. Craig S Fryer",
           facilitators: [
             {
@@ -3853,11 +3853,11 @@ var CLASSES = {
             }
           ],
           /* description needed */
-          description: "(Not listed on Testudo yet.)",
+          description: "",
           id: 187,
           title: "Achieving Wellbeing",
           website: null,
-          department: "SPHL",
+          department: "HLTH",
           credits: 1
         },
 
