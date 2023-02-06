@@ -3408,7 +3408,7 @@ var CLASSES = {
           advisor: "Garrett Vanhoy",
           facilitators: [
             {
-              name: "Siddharth Cherukupall",
+              name: "Siddharth Cherukupalli",
               email: "scheruku@terpmail.umd.edu"
             },
             {
