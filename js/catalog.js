@@ -188,7 +188,7 @@ function createDiv(cl) {
 // TODO add semesters here
 var SEMESTERS = ["spring 2017", "fall 2017", "spring 2018", "fall 2018", "spring 2019", "fall 2019", "spring 2020", "fall 2020", "fall 2021", "spring 2022", "fall 2022", "spring 2023", "fall 2023"];
 
-var CURRENT_SEMESTER = "spring 2023";
+var CURRENT_SEMESTER = "fall 2023";
 
 // TODO add classes here
 var CLASSES = {
