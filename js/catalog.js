@@ -3819,7 +3819,7 @@ var CLASSES = {
     // -------------------------------------------------------------
 
     "fall 2023": {
-      departments: ["BMGT", "BSCI", "CMSC", "GVPT", "HLTH", "IDEA", "IMDM", "MATH", "MUSC"],
+      departments: ["CMSC", "MATH"],
       classes: [
         {
           number: "388J",
@@ -4040,6 +4040,69 @@ var CLASSES = {
           title: "What to do After Landing a SWE Job",
           website: "https://docs.google.com/document/d/1nEjeXrEwdlpqPo2PsMzU5j1oFLWMBPD18IYWi5fhupQ/edit?usp=sharing",
           department: "CMSC",
+          credits: 1,
+        },
+
+        {
+          number: "299W",
+          advisor: "Niranjan Ramachandran",
+          facilitators: [
+            {
+              name: "Karthik Sellakumaran Latha",
+              email: "rwuu@terpmail.umd.edu",
+            },
+            {
+              name: " Rae Wu",
+              email: "karthiks@umd.edu",
+            },
+          ],
+          description: "",
+          id: 198,
+          title: "Art and Mathematics",
+          website: "https://docs.google.com/document/d/10lPdbCKJwJJ2NltWgZfxtPOLgljoapVZaiCwpV0Hadk/edit",
+          department: "MATH",
+          credits: 1,
+        },
+
+        {
+          number: "299G",
+          advisor: "Wiseley Wong",
+          facilitators: [
+            {
+              name: "May Piatt",
+              email: "mpiatt@terpmail.umd.edu",
+            },
+            {
+              name: " Grayson Wolf",
+              email: "graywolf@terpmail.umd.edu",
+            },
+          ],
+          description: "",
+          id: 199,
+          title: "Introduction to Combinatorial Game Theory",
+          website: "https://drive.google.com/file/d/19YE8_5Xil9yXM1IDcCoGNeqXsV73xTW0/view?usp=sharing",
+          department: "MATH",
+          credits: 1,
+        },
+
+        {
+          number: "299C",
+          advisor: "Niranjan Ramachandran",
+          facilitators: [
+            {
+              name: "Alex Yelovich",
+              email: "ayelovic@umd.edu",
+            },
+            {
+              name: " Alex Ortunio",
+              email: "aortunio@umd.edu",
+            },
+          ],
+          description: "",
+          id: 299,
+          title: "The Mathematics of Music",
+          website: "https://drive.google.com/file/d/1YwMITPrBMlKXIebe3N-DwJEVy1hbMMQP/view?usp=share_link",
+          department: "MATH",
           credits: 1,
         },
 
