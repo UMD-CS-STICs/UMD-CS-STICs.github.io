@@ -4271,7 +4271,7 @@ var CLASSES = {
             { name: 'Hari Kailad', email: 'emh@umd.edu' },
           ],
           description: "An introduction to exploiting common vulnerabilities in compiled applications. Topics include an overview of C, intro to x86 assembly, buffer overflows on stack and heap, format string bugs, heap exploitation, and other special topics (kernel/browser/blockchain). Students will be able to write exploits for all the bugs learned in class, and secure their own applications.",
-          website: "https://drive.google.com/file/d/1i54ijQsE4lasiWYcwJ4frwXQNThkLDTl/view?usp=sharing",
+	  website: "https://drive.google.com/file/d/18F_jwOExI1PC8TIjdLuzcXrOvsLhoDH4/view?usp=sharing",  
           id: 208,
           credits: 1,
         },
