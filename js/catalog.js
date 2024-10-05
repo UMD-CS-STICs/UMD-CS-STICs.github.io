@@ -4374,7 +4374,7 @@ var CLASSES = {
           ],
           description: "Computational methods (Fourier Optics) for advanced optical modeling. Implement algorithms in Python3 or MATLAB, focusing on physics and mathematics. Explore experimental considerations and plotting schemes. Simulate telescope or laser cavity systems for understanding and improvement recommendations. Skeleton code provided to allow focus on key calculations and interpretation.",
           id: 212,
-          website: "https://drive.google.com/file/d/1eNeC7lGcKI9Z1Mj3FqWFnLmAPNciVoTk/view?usp=sharing",
+          website: "https://docs.google.com/document/d/140PeJMf5MdUUbAhZ3XsdycC9CtL3pfM88gY_ZsvQf2o/edit?usp=sharing",
           credits: 1,
         },
         {
