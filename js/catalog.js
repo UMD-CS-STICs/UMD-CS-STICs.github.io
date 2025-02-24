@@ -4505,7 +4505,6 @@ var CLASSES = {
           advisor: "Dana Grosser-Clarkson",
           facilitators: [
             { name: 'Rowan Weiss', email: 'weiss13@terpmail.umd.edu' },
-            { name: 'FACILITATOR', email: 'EMAIL' },
           ],
           description: "In this course, we will overview several of the prevailing philosophical viewpoints that have emerged. These perspectives are often at odds with each other, so this course is designed to help you develop your own perspective about these topics. This course will require both mathematical and philosophical discussion, as the philosophy will inform the mathematical systems we develop, and the consequences of the mathematical systems we develop will in turn inform our philosophy. We will be talking about the math arising from philosophical ideas as much as we will be talking about the philosophical ideas themselves.",
           website: "https://docs.google.com/document/d/16PFzBjRmU3w0WFK1hVBpbfUdYivlg8NSKtQsvvop07s/edit?usp=sharing",
