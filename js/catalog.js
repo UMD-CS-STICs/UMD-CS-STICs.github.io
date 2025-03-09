@@ -4456,7 +4456,7 @@ var CLASSES = {
     },
 
     "spring 2025": {
-      departments: ["CMSC", "TLPL", "ASTR", "MATH"],
+      departments: ["CMSC", "TLPL", "ASTR", "MATH", "SPHL"],
       classes: [
         {
           department: "TLPL",
@@ -4645,6 +4645,21 @@ var CLASSES = {
           description: "Technical interviewing is a critical skill for acquiring internships and jobs. Students will gain a comprehensive, practical introduction to technical interviews. Students will be introduced to basic topics such as Big O and String Manipulation and later move into more complex topics such as Graphs and Dynamic Programming. Most in-class time will be spent on mock interviews to give real interview practice. The course facilitators are experienced in interviewing and have received internship/job offers from companies like Meta, Optiver, Bloomberg, Amazon, Apple, Microsoft, Databricks, Capital One, and more.",
           website: "https://docs.google.com/document/d/15OkYkl1LSsWVruYzNhw06YaT9YboVPZqtfNuwVW08Qw/edit?usp=sharing",
           id: 230,
+          credits: 1,
+        },
+
+        {
+          department: "SPHL",
+          number: "276",
+          title: "Decolonizing Medicine: Steps to Actionable Change",
+          advisor: "Dina Borzekowski",
+          facilitators: [
+            { name: 'Shree Bhattacharya', email: 'sbhatta6@terpmail.umd.edu' },
+            { name: 'Moumita Afrin', email: 'mafrin@umd.edu' },
+          ],
+          description: "This course provides a comprehensive foundation of how colonial legacies continue to shape global health systems and medical practices. We will critically engage with the concept of 'the White body' as the standard in medical training, explore the consequences of the historical context underpinning colonial medicine, and interrogate neocolonial dynamics in contemporary global health efforts. Designed for students interested in careers in medicine, public health, or health policy, this course will challenge students to rethink the ethical and epistemological frameworks that underlie modern healthcare.",
+          website: "https://drive.google.com/file/d/1vtsaYEFbFtKjIHP8QWdjfLripevG5IOk/view?usp=sharing",
+          id: 231,
           credits: 1,
         },
 
