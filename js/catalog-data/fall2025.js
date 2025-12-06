@@ -61,7 +61,7 @@ export const fall2025 = {
         advisor: "Maksym Morawski",
         facilitators: [
         { name: "Suvrath Chivukula", email: "schivuku@terpmail.umd.edu" },
-        { name: "Pranav Palle", email: "ppalle@terpmail.umd.edu" },
+        { name: "Pranav Palle", email: "ppalle1@terpmail.umd.edu" },
         { name: "Amogh Gurram", email: "amogh@terpmail.umd.edu" },
         ],
         description: "This course provides a practical introduction to cloud computing with Amazon Web Services (https://aws.amazon.com/about-aws/) (AWS). Students will learn how to build applications using a variety of AWS services, including S3, EC2, Lambda, and ECS. Additionally they will have an exam ready understanding of many services, benefits, and features of AWS. Thecourse will culminate in a final resume-worthy project that will be built, deployed, and demoed.",
