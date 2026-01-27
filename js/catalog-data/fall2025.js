@@ -206,8 +206,8 @@ export const fall2025 = {
         title: "Decolonizing Medicine: Steps to Actionable Change",
         advisor: "Dina Borzekowski",
         facilitators: [
-        { name: 'Shree Bhattacharya', email: 'sbhatta6@terpmail.umd.edu' },
-        { name: 'Moumita Afrin', email: 'mafrin@umd.edu' },
+        { name: 'Anya Tahi', email: 'atahi@terpmail.umd.edu' },
+        { name: 'Aliza Zulfiqar', email: 'aliza4@terpmail.umd.edu' },
         ],
         description: "This course provides a comprehensive foundation of how colonial legacies continue to shape global health systems and medical practices. We will critically engage with the concept of 'the White body' as the standard in medical training, explore the consequences of the historical context underpinning colonial medicine, and interrogate neocolonial dynamics in contemporary global health efforts. Designed for students interested in careers in medicine, public health, or health policy, this course will challenge students to rethink the ethical and epistemological frameworks that underlie modern healthcare.",
         website: "https://drive.google.com/file/d/1vtsaYEFbFtKjIHP8QWdjfLripevG5IOk/view?usp=sharing",
