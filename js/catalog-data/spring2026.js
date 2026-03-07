@@ -87,7 +87,7 @@ export const spring2026 =
         department: "RUSS",
         number: "299A",
         title: "Russian Cultural Norms",
-        advisor: Michael Lavery",
+        advisor: "Michael Lavery",
         facilitators: [
         { name: 'Vasiley Syomin', email: 'tarynr12@umd.edu' },
 	{ name: 'Andrew Makarevich', email: 'amakarev@terpmail.umd.edu' },
