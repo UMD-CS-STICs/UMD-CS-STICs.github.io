@@ -16,6 +16,7 @@ import { spring2024 } from "./spring2024.js";
 import { fall2024 } from "./fall2024.js";
 import { spring2025 } from "./spring2025.js";
 import { fall2025 } from "./fall2025.js";
+import { spring2026 } from "./spring2026.js";
 
 // TODO add classes here
 export var CLASSES = {
@@ -38,8 +39,9 @@ export var CLASSES = {
     "fall 2024": fall2024,
     "spring 2025": spring2025,
     "fall 2025": fall2025,
+    "spring 2026": spring2026
   },
 };
 
-export var SEMESTERS = ["spring 2017", "fall 2017", "spring 2018", "fall 2018", "spring 2019", "fall 2019", "spring 2020", "fall 2020", "fall 2021", "spring 2022", "fall 2022", "spring 2023", "fall 2023", "spring 2024", "fall 2024", "spring 2025", "fall 2025"];
-export var CURRENT_SEMESTER = "fall 2025";
+export var SEMESTERS = ["spring 2017", "fall 2017", "spring 2018", "fall 2018", "spring 2019", "fall 2019", "spring 2020", "fall 2020", "fall 2021", "spring 2022", "fall 2022", "spring 2023", "fall 2023", "spring 2024", "fall 2024", "spring 2025", "fall 2025", "spring 2026"];
+export var CURRENT_SEMESTER = "spring 2026";
