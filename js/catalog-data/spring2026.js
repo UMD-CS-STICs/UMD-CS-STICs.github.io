@@ -89,8 +89,7 @@ export const spring2026 =
         title: "Russian Cultural Norms",
         advisor: "Michael Lavery",
         facilitators: [
-        { name: 'Vasiley Syomin', email: 'tarynr12@umd.edu' },
-	{ name: 'Andrew Makarevich', email: 'amakarev@terpmail.umd.edu' },
+        { name: 'Vasiley Syomin', email: 'vsyomin@umd.edu' },
         ],
         description: "This one-credit, low-stakes Russian conversation course is designed for students with a foundation in Russian grammar, which may include both heritage speakers and language learners seeking to strengthen theirspeaking confidence. Through discussions conducted in Russian, students will explore cultural norms and modern expressions of Russian identity across music, film, internet culture, and everyday life. By examining popular media, social customs, humor, and communication styles, studentswill gain insight into how Russians interpret and express the world around them. The course emphasizes conversation, cultural understanding,and real-world language use, helping students connect linguistic knowledge with authentic cultural context.",
         website: "https://docs.google.com/document/d/1rBsM9kB8PuOEWeJrkamm79GDdmj7fPwLmAVesJX9Xzw/edit?tab=t.0",
