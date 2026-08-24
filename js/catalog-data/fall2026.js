@@ -90,6 +90,7 @@ export const fall2026 =
         credits: 1,
     },
     {
+        // this cant be found on testudo. confirm with Alan Sussman and facilitators whether this course is actually taught.
         department: "CMSC",
         number: "398A",
         title: "Developing Full Stack Applications with AI",
@@ -117,7 +118,7 @@ export const fall2026 =
         credits: 1,
     },
     {
-        // FLAG FOR MAHEK: facilitators and advisor are still TBA — confirm with class
+        // facilitators and advisor are still TBA — confirm with class
         // coordinator whether this course is actually running before publishing.
         department: "BSCI",
         number: "238J",
@@ -217,7 +218,7 @@ export const fall2026 =
         credits: 1,
     },
     {
-
+        // update the website and advisor/facilitators once confirmed by class coordinator
         department: "ENAE",
         number: "288B",
         title: "Failures in Human Spaceflight",
