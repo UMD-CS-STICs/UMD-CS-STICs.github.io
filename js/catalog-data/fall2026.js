@@ -136,7 +136,7 @@ export const fall2026 =
         department: "CMSC",
         number: "398N",
         title: "Ethics in the Age of AI",
-        advisor: "Elias Gonzales",
+        advisor: "Elias Gonzalez",
         facilitators: [
         { name: 'Aryan Thakar', email: 'arthakar@umd.edu' },
         { name: 'Arshnoor Bhutani', email: 'arshnoor@terpmail.umd.edu' },
